@@ -112,14 +112,14 @@ export default defineConfig({
   title: '信息学竞赛 C++ 教材',
   description: '面向小学高年级+初中低年级的信息学竞赛 C++ 教材 | CSP-J 第二轮 | GESP 1-5级',
   lang: 'zh-CN',
-  base: '/cpp-textbook/',
+  base: '/noi_roadmap/',
 
   head: [
-    ['link', { rel: 'icon', href: '/cpp-textbook/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/noi_roadmap/favicon.ico' }],
   ],
 
   themeConfig: {
-    logo: null,
+    logo: '/noi_roadmap/logo.svg',
     nav: [
       { text: '首页', link: '/' },
       { text: '上册 · 入门级', link: '/m1/第01章_你好计算机' },
@@ -136,7 +136,7 @@ export default defineConfig({
           { text: 'M8 线性结构与数论', link: '/m8/第51章_栈与队列_线性结构入门' },
         ]
       },
-      { text: 'GitHub', link: 'https://github.com/AlanWhiteDJ/cpp-textbook' },
+      { text: 'GitHub', link: 'https://github.com/AlanWhiteDJ/noi_roadmap' },
     ],
 
     sidebar: {
@@ -157,7 +157,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/AlanWhiteDJ/cpp-textbook' },
+      { icon: 'github', link: 'https://github.com/AlanWhiteDJ/noi_roadmap' },
     ],
 
     search: {
@@ -180,7 +180,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/AlanWhiteDJ/cpp-textbook/edit/main/docs/:path',
+      pattern: 'https://github.com/AlanWhiteDJ/noi_roadmap/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
 

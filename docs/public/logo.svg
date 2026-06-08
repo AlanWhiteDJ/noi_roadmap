@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F9D423"/>
+      <stop offset="50%" stop-color="#FF4E50"/>
+      <stop offset="100%" stop-color="#F9D423"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C62828"/>
+      <stop offset="100%" stop-color="#E53935"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#2d3a4f"/>
+    </linearGradient>
+    <linearGradient id="medal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="40%" stop-color="#FFA000"/>
+      <stop offset="100%" stop-color="#FF6F00"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景圆 -->
+  <circle cx="200" cy="175" r="155" fill="url(#shield)" opacity="0.95"/>
+  <circle cx="200" cy="175" r="155" stroke="url(#gold)" stroke-width="4" fill="none"/>
+
+  <!-- 金牌 -->
+  <circle cx="200" cy="180" r="58" fill="url(#medal)" opacity="0.9"/>
+  <circle cx="200" cy="180" r="52" fill="none" stroke="#FFF" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="200" cy="180" r="43" fill="none" stroke="#FFF" stroke-width="1" opacity="0.25"/>
+
+  <!-- 奖牌数字 1 -->
+  <text x="200" y="195" text-anchor="middle" font-family="Georgia,serif" font-size="52" font-weight="900" fill="#FFF" opacity="0.9">1</text>
+
+  <!-- 星星 -->
+  <text x="130" y="145" font-size="24" fill="#FFD700" opacity="0.8" filter="url(#glow)">✦</text>
+  <text x="270" y="145" font-size="18" fill="#FFD700" opacity="0.6">✦</text>
+  <text x="150" y="240" font-size="14" fill="#FFD700" opacity="0.5">✦</text>
+  <text x="250" y="240" font-size="16" fill="#FFD700" opacity="0.5">✦</text>
+
+  <!-- 主标题：元佳信奥 -->
+  <text x="200" y="80" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei','SimHei',sans-serif" font-size="42" font-weight="900" fill="url(#gold)" letter-spacing="6">元佳信奥</text>
+
+  <!-- 副标题：每个孩子都是金牌 -->
+  <text x="200" y="270" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="17" fill="#8899AA" letter-spacing="2">每个孩子都是金牌</text>
+
+  <!-- 底部装饰线 -->
+  <line x1="110" y1="290" x2="290" y2="290" stroke="url(#gold)" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- 代码括号装饰 -->
+  <text x="58" y="195" font-family="'Courier New',monospace" font-size="38" fill="#FFD700" opacity="0.25">{</text>
+  <text x="338" y="195" font-family="'Courier New',monospace" font-size="38" fill="#FFD700" opacity="0.25">}</text>
+</svg>
