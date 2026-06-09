@@ -440,6 +440,54 @@ if (age = 18) {
 └─────────────────────────────────────────────────────────┘
 ```
 
+
+
+---
+
+## 📝 配套练习
+
+> 共10题。if-else从二元→多元→嵌套→分段函数逐步推进。。★核心（课堂必做） ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | J0027 | https://hydro.ac/d/srqc/p/J0027 | if-else、关系运算符>、比较 |
+| ◆ 拓展 | J0028 | https://hydro.ac/d/srqc/p/J0028 | if-else、逻辑&&、多条件组合 |
+| ◆ 拓展 | J0029 | https://hydro.ac/d/srqc/p/J0029 | if-else嵌套、闰年四条件 |
+| ◆ 拓展 | luogu-B2035 | https://hydro.ac/p/luogu-B2035 | 关系运算符、正负零三分支 |
+| ◆ 拓展 | luogu-B2036 | https://hydro.ac/p/luogu-B2036 | 绝对值、if-else、三目?: |
+| ◆ 拓展 | luogu-B2040 | https://hydro.ac/p/luogu-B2040 | 判断两位数、关系+逻辑&& |
+| ◆ 拓展 | luogu-B2047 | https://hydro.ac/p/luogu-B2047 | 分段函数、else-if链、边界 |
+| ◆ 拓展 | J0031 | https://hydro.ac/d/srqc/p/J0031 | if-else、多条件分类 |
+| ◆ 拓展 | J0030 | https://hydro.ac/d/srqc/p/J0030 | if-else、字符串条件 |
+| ◆ 拓展 | luogu-B2041 | https://hydro.ac/p/luogu-B2041 | 简单&&、两个bool条件 |
+
+> 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 9 道◆拓展题，覆盖不同变式和细节。
+
+
+
+
+---
+
+## 配套练习
+
+> 共10题。if-else从二元→多元→嵌套→分段函数逐步推进。★核心（课堂必做） · ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | J0027 | https://hydro.ac/d/srqc/p/J0027 | if-else、关系运算符>、比较 |
+| ◆ 拓展 | J0028 | https://hydro.ac/d/srqc/p/J0028 | if-else、逻辑&&、多条件组合 |
+| ◆ 拓展 | J0029 | https://hydro.ac/d/srqc/p/J0029 | if-else嵌套、闰年四条件 |
+| ◆ 拓展 | luogu-B2035 | https://hydro.ac/p/luogu-B2035 | 关系运算符、正负零三分支 |
+| ◆ 拓展 | luogu-B2036 | https://hydro.ac/p/luogu-B2036 | 绝对值、if-else、三目?: |
+| ◆ 拓展 | luogu-B2040 | https://hydro.ac/p/luogu-B2040 | 判断两位数、关系+逻辑&& |
+| ◆ 拓展 | luogu-B2047 | https://hydro.ac/p/luogu-B2047 | 分段函数、else-if链、边界 |
+| ◆ 拓展 | J0031 | https://hydro.ac/d/srqc/p/J0031 | if-else、多条件分类 |
+| ◆ 拓展 | J0030 | https://hydro.ac/d/srqc/p/J0030 | if-else、字符串条件 |
+| ◆ 拓展 | luogu-B2041 | https://hydro.ac/p/luogu-B2041 | 简单&&、两个bool条件 |
+
+> **练习建议**：先在课堂完成 1 道★核心题，掌握本章基本方法；课后完成 9 道◆拓展题，覆盖不同变式和细节。
+
+
 **自查清单**：
 
 - [ ] 我能写出 if、if-else、else if 三种结构

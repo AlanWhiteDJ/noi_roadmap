@@ -329,6 +329,48 @@ stringstream：
   把字符串当输入流，用 >> 解析
 ```
 
+
+
+---
+
+## 📝 配套练习
+
+> 共7题。string从读入→遍历→字符处理→查找映射逐步深入。。★核心（课堂必做） ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | J0089 | https://hydro.ac/d/srqc/p/J0089 | string、getline、length |
+| ◆ 拓展 | J0085 | https://hydro.ac/d/srqc/p/J0085 | string、toupper、字符遍历 |
+| ◆ 拓展 | J0092 | https://hydro.ac/d/srqc/p/J0092 | string、映射表、按键次数 |
+| ◆ 拓展 | J0086 | https://hydro.ac/d/srqc/p/J0086 | string、字符偏移、模运算 |
+| ◆ 拓展 | luogu-P5733 | https://hydro.ac/p/luogu-P5733 | string、toupper/tolower、全转换 |
+| ◆ 拓展 | J0093 | https://hydro.ac/d/srqc/p/J0093 | string、查找相邻、计数 |
+| ◆ 拓展 | J0088 | https://hydro.ac/d/srqc/p/J0088 | string、类型判断、格式解析 |
+
+> 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 6 道◆拓展题，覆盖不同变式和细节。
+
+
+
+
+---
+
+## 配套练习
+
+> 共7题。string从读入→遍历→字符处理→查找映射逐步深入。★核心（课堂必做） · ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | J0089 | https://hydro.ac/d/srqc/p/J0089 | string、getline、length |
+| ◆ 拓展 | J0085 | https://hydro.ac/d/srqc/p/J0085 | string、toupper、字符遍历 |
+| ◆ 拓展 | J0092 | https://hydro.ac/d/srqc/p/J0092 | string、映射表、按键次数 |
+| ◆ 拓展 | J0086 | https://hydro.ac/d/srqc/p/J0086 | string、字符偏移、模运算 |
+| ◆ 拓展 | luogu-P5733 | https://hydro.ac/p/luogu-P5733 | string、toupper/tolower、全转换 |
+| ◆ 拓展 | J0093 | https://hydro.ac/d/srqc/p/J0093 | string、查找相邻、计数 |
+| ◆ 拓展 | J0088 | https://hydro.ac/d/srqc/p/J0088 | string、类型判断、格式解析 |
+
+> **练习建议**：先在课堂完成 1 道★核心题，掌握本章基本方法；课后完成 6 道◆拓展题，覆盖不同变式和细节。
+
+
 **自查清单**：
 
 - [ ] 我能用两种方式读入字符串，知道什么场景用哪个

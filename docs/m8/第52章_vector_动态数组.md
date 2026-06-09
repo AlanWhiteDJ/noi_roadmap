@@ -316,6 +316,46 @@ sort(v.begin(), v.end()) 排序（需 #include <algorithm>）
 vector 的核心优势：大小动态可变
 ```
 
+
+
+---
+
+## 📝 配套练习
+
+> 共6题。vector从基本操作→二维→排序，和M3数组知识无缝对接。。★核心（课堂必做） ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | luogu-P3156 | https://hydro.ac/p/luogu-P3156 | vector、push_back、下标 |
+| ◆ 拓展 | luogu-P1428 | https://hydro.ac/p/luogu-P1428 | vector、嵌套循环（数组改vector） |
+| ◆ 拓展 | luogu-P5727 | https://hydro.ac/p/luogu-P5727 | vector、push_back、reverse |
+| ◆ 拓展 | luogu-P5731 | https://hydro.ac/p/luogu-P5731 | vector、二维vector、蛇形 |
+| ◆ 拓展 | luogu-P5732 | https://hydro.ac/p/luogu-P5732 | vector、二维递推、杨辉三角 |
+| ◆ 拓展 | luogu-P1781 | https://hydro.ac/p/luogu-P1781 | vector\<string\>、排序 |
+
+> 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 5 道◆拓展题，覆盖不同变式和细节。
+
+
+
+
+---
+
+## 配套练习
+
+> 共6题。vector从基本操作→二维→排序，和M3数组知识无缝对接。★核心（课堂必做） · ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | luogu-P3156 | https://hydro.ac/p/luogu-P3156 | vector、push_back、下标 |
+| ◆ 拓展 | luogu-P1428 | https://hydro.ac/p/luogu-P1428 | vector、嵌套循环（数组改vector） |
+| ◆ 拓展 | luogu-P5727 | https://hydro.ac/p/luogu-P5727 | vector、push_back、reverse |
+| ◆ 拓展 | luogu-P5731 | https://hydro.ac/p/luogu-P5731 | vector、二维vector、蛇形 |
+| ◆ 拓展 | luogu-P5732 | https://hydro.ac/p/luogu-P5732 | vector、二维递推、杨辉三角 |
+| ◆ 拓展 | luogu-P1781 | https://hydro.ac/p/luogu-P1781 | vector\<string\>、排序 |
+
+> **练习建议**：先在课堂完成 1 道★核心题，掌握本章基本方法；课后完成 5 道◆拓展题，覆盖不同变式和细节。
+
+
 **自查清单**：
 
 - [ ] 我会声明 `vector<int>` 并往里 `push_back` 数据

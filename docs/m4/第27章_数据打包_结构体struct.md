@@ -394,6 +394,48 @@ struct 结构体名 {
 结构体传参：  可以传值、传指针（效率更高）
 ```
 
+
+
+---
+
+## 📝 配套练习
+
+> 共7题。struct从定义→访问→比较→排序，为M6的sort+cmp打基础。。★核心（课堂必做） ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | J0106 | https://hydro.ac/d/srqc/p/J0106 | struct定义、成员访问、遍历 |
+| ◆ 拓展 | J0107 | https://hydro.ac/d/srqc/p/J0107 | struct、嵌套比较、分数差 |
+| ◆ 拓展 | J0108 | https://hydro.ac/d/srqc/p/J0108 | struct、条件判断、等级评定 |
+| ◆ 拓展 | luogu-P5740 | https://hydro.ac/p/luogu-P5740 | struct、多成员、最值 |
+| ◆ 拓展 | luogu-P5741 | https://hydro.ac/p/luogu-P5741 | struct、多关键字比较 |
+| ◆ 拓展 | luogu-P5742 | https://hydro.ac/p/luogu-P5742 | struct、排序启蒙 |
+| ◆ 拓展 | J0114 | https://hydro.ac/d/srqc/p/J0114 | struct数组、排序、分组 |
+
+> 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 6 道◆拓展题，覆盖不同变式和细节。
+
+
+
+
+---
+
+## 配套练习
+
+> 共7题。struct从定义→访问→比较→排序，为M6的sort+cmp打基础。★核心（课堂必做） · ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | J0106 | https://hydro.ac/d/srqc/p/J0106 | struct定义、成员访问、遍历 |
+| ◆ 拓展 | J0107 | https://hydro.ac/d/srqc/p/J0107 | struct、嵌套比较、分数差 |
+| ◆ 拓展 | J0108 | https://hydro.ac/d/srqc/p/J0108 | struct、条件判断、等级评定 |
+| ◆ 拓展 | luogu-P5740 | https://hydro.ac/p/luogu-P5740 | struct、多成员、最值 |
+| ◆ 拓展 | luogu-P5741 | https://hydro.ac/p/luogu-P5741 | struct、多关键字比较 |
+| ◆ 拓展 | luogu-P5742 | https://hydro.ac/p/luogu-P5742 | struct、排序启蒙 |
+| ◆ 拓展 | J0114 | https://hydro.ac/d/srqc/p/J0114 | struct数组、排序、分组 |
+
+> **练习建议**：先在课堂完成 1 道★核心题，掌握本章基本方法；课后完成 6 道◆拓展题，覆盖不同变式和细节。
+
+
 **自查清单**：
 
 - [ ] 我能用 `struct` 定义自己的复合数据类型

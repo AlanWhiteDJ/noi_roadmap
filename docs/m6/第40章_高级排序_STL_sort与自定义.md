@@ -317,6 +317,50 @@ cmp 写法：
   return a.key3 < b.key3;                          // 第三关键字
 ```
 
+
+
+---
+
+## 📝 配套练习
+
+> 共8题。从简单cmp→多关键字→复杂规则(拼接比较)→stable_sort，cmp设计能力递进。。★核心（课堂必做） ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | luogu-P1093 | https://hydro.ac/p/luogu-P1093 | sort+cmp、三级关键字 |
+| ◆ 拓展 | luogu-P1068 | https://hydro.ac/p/luogu-P1068 | sort+分数线、150%规则 |
+| ◆ 拓展 | luogu-P1012 | https://hydro.ac/p/luogu-P1012 | cmp=a+b>b+a、拼接比较 |
+| ◆ 拓展 | luogu-P1104 | https://hydro.ac/p/luogu-P1104 | stable_sort、生日排序 |
+| ◆ 拓展 | luogu-P1781 | https://hydro.ac/p/luogu-P1781 | sort、string比较（对比手写） |
+| ◆ 拓展 | luogu-P5740 | https://hydro.ac/p/luogu-P5740 | struct+sort+cmp、多关键字启蒙 |
+| ◆ 拓展 | luogu-P5741 | https://hydro.ac/p/luogu-P5741 | struct排序扩展 |
+| ◆ 拓展 | luogu-P5742 | https://hydro.ac/p/luogu-P5742 | struct、三级排序 |
+
+> 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 7 道◆拓展题，覆盖不同变式和细节。
+
+
+
+
+---
+
+## 配套练习
+
+> 共8题。从简单cmp→多关键字→复杂规则(拼接比较)→stable_sort，cmp设计能力递进。★核心（课堂必做） · ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | luogu-P1093 | https://hydro.ac/p/luogu-P1093 | sort+cmp、三级关键字 |
+| ◆ 拓展 | luogu-P1068 | https://hydro.ac/p/luogu-P1068 | sort+分数线、150%规则 |
+| ◆ 拓展 | luogu-P1012 | https://hydro.ac/p/luogu-P1012 | cmp=a+b>b+a、拼接比较 |
+| ◆ 拓展 | luogu-P1104 | https://hydro.ac/p/luogu-P1104 | stable_sort、生日排序 |
+| ◆ 拓展 | luogu-P1781 | https://hydro.ac/p/luogu-P1781 | sort、string比较（对比手写） |
+| ◆ 拓展 | luogu-P5740 | https://hydro.ac/p/luogu-P5740 | struct+sort+cmp、多关键字启蒙 |
+| ◆ 拓展 | luogu-P5741 | https://hydro.ac/p/luogu-P5741 | struct排序扩展 |
+| ◆ 拓展 | luogu-P5742 | https://hydro.ac/p/luogu-P5742 | struct、三级排序 |
+
+> **练习建议**：先在课堂完成 1 道★核心题，掌握本章基本方法；课后完成 7 道◆拓展题，覆盖不同变式和细节。
+
+
 **自查清单**：
 
 - [ ] 我能用 `sort()` 对数组进行升序和降序排序

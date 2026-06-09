@@ -369,6 +369,44 @@ char 的本质：
   1 Byte = 8 bit → 可表示 0~255
 ```
 
+
+
+---
+
+## 📝 配套练习
+
+> 共5题。ASCII重点是"字符和整数是同一枚硬币的两面"——J0097和J0017练双向转换。。★核心（课堂必做） ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | J0087 | https://hydro.ac/d/srqc/p/J0087 | isalpha、桶计数、ASCII |
+| ◆ 拓展 | J0097 | https://hydro.ac/d/srqc/p/J0097 | 字符→数字映射、模运算 |
+| ◆ 拓展 | J0017 | https://hydro.ac/d/srqc/p/J0017 | 大小写转换、ASCII偏移 |
+| ◆ 拓展 | luogu-B2038 | https://hydro.ac/p/luogu-B2038 | 奇偶ASCII、字符判断 |
+| ◆ 拓展 | luogu-P5733 | https://hydro.ac/p/luogu-P5733 | toupper/tolower、库函数 |
+
+> 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 4 道◆拓展题，覆盖不同变式和细节。
+
+
+
+
+---
+
+## 配套练习
+
+> 共5题。ASCII重点是"字符和整数是同一枚硬币的两面"——J0097和J0017练双向转换。★核心（课堂必做） · ◆拓展（课后练习）
+
+| 级别 | 题号 | 链接 | 覆盖知识点 |
+|------|------|------|-----------|
+| ★ 核心 | J0087 | https://hydro.ac/d/srqc/p/J0087 | isalpha、桶计数、ASCII |
+| ◆ 拓展 | J0097 | https://hydro.ac/d/srqc/p/J0097 | 字符→数字映射、模运算 |
+| ◆ 拓展 | J0017 | https://hydro.ac/d/srqc/p/J0017 | 大小写转换、ASCII偏移 |
+| ◆ 拓展 | luogu-B2038 | https://hydro.ac/p/luogu-B2038 | 奇偶ASCII、字符判断 |
+| ◆ 拓展 | luogu-P5733 | https://hydro.ac/p/luogu-P5733 | toupper/tolower、库函数 |
+
+> **练习建议**：先在课堂完成 1 道★核心题，掌握本章基本方法；课后完成 4 道◆拓展题，覆盖不同变式和细节。
+
+
 **自查清单**：
 
 - [ ] 我能说出 bit、Byte、KB、MB、GB 的关系
