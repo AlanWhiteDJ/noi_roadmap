@@ -350,10 +350,10 @@ stringstream：
 | ★ 核心 | luogu-P3880 | https://hydro.ac/p/luogu-P3880 | 来自J满分题单：[JLOI2008] 提示问题 |
 | ★ 核心 | atto#1041 | https://hydro.ac/d/atto/p/1041 | 来自J满分题单：1041   [USACO09OCT] Barn Echoes G |
 | ★ 核心 | luogu-P1572 | https://hydro.ac/p/luogu-P1572 | 来自J满分题单：计算分数 |
-| ★ 核心 | luogu-P1603 | https://hydro.ac/p/luogu-P1603 | 来自J满分题单：斯诺登的密码 |
-| ★ 核心 | luogu-P1067 | https://hydro.ac/p/luogu-P1067 | 来自J满分题单：[NOIP 2009 普及组] 多项式输出 |
+| ◆ 拓展 | luogu-P1603 | https://hydro.ac/p/luogu-P1603 | 来自J满分题单：斯诺登的密码 |
+| ◆ 拓展 | luogu-P1067 | https://hydro.ac/p/luogu-P1067 | 来自J满分题单：[NOIP 2009 普及组] 多项式输出 |
 
-> 💡 **练习建议**：先完成 7 道★核心题，确保掌握本章基本方法；再完成 6 道◆拓展题，覆盖不同变式和细节。
+> 💡 **练习建议**：先完成 5 道★核心题，确保掌握本章基本方法；再完成 8 道◆拓展题，覆盖不同变式和细节。
 
 
 
