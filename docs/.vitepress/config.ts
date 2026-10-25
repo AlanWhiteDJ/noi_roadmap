@@ -4,6 +4,10 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 // 侧边栏章节列表
 const sidebarGuide = [
   {
+    text: '上册（M1–M8）',
+    collapsed: false,
+    items: [
+  {
     text: 'M1 认识编程世界',
     collapsed: false,
     items: [
@@ -107,7 +111,13 @@ const sidebarGuide = [
       { text: '第56章 有多少种可能——排列组合', link: '/m8/第56章_有多少种可能_排列组合基础' },
       { text: '第57章 树与二叉树入门', link: '/m8/第57章_树与二叉树入门' },
     ]
-  },  {
+  },    ]
+  },
+  {
+    text: '下册（M9–M15）',
+    collapsed: false,
+    items: [
+  {
     text: 'M9 数据结构与 STL（下册）',
     collapsed: true,
     items: [
@@ -119,6 +129,8 @@ const sidebarGuide = [
       { text: '第63章 树状数组', link: '/m9/第63章_树状数组' },
       { text: '第64章 线段树', link: '/m9/第64章_线段树' },
       { text: '第65章 ST 表与字典树', link: '/m9/第65章_ST表与字典树' },
+    ]
+  }
     ]
   },
 ]
