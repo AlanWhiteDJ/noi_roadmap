@@ -335,7 +335,7 @@ stringstream：
 
 ## 📝 配套练习
 
-> 共7题。string从读入→遍历→字符处理→查找映射逐步深入。★核心（课堂必做） ◆拓展（课后练习）
+> 共13题。string从读入→遍历→字符处理→查找映射逐步深入。★核心（课堂必做） ◆拓展（课后练习）
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
@@ -346,8 +346,14 @@ stringstream：
 | ◆ 拓展 | luogu-P5733 | https://hydro.ac/p/luogu-P5733 | string、toupper/tolower、全转换 |
 | ◆ 拓展 | J0093 | https://hydro.ac/d/srqc/p/J0093 | string、查找相邻、计数 |
 | ◆ 拓展 | J0088 | https://hydro.ac/d/srqc/p/J0088 | string、类型判断、格式解析 |
+| ★ 核心 | atto#1037 | https://hydro.ac/d/atto/p/1037 | 来自J满分题单：1037   Multiplication Table |
+| ★ 核心 | luogu-P3880 | https://hydro.ac/p/luogu-P3880 | 来自J满分题单：[JLOI2008] 提示问题 |
+| ★ 核心 | atto#1041 | https://hydro.ac/d/atto/p/1041 | 来自J满分题单：1041   [USACO09OCT] Barn Echoes G |
+| ★ 核心 | luogu-P1572 | https://hydro.ac/p/luogu-P1572 | 来自J满分题单：计算分数 |
+| ★ 核心 | luogu-P1603 | https://hydro.ac/p/luogu-P1603 | 来自J满分题单：斯诺登的密码 |
+| ★ 核心 | luogu-P1067 | https://hydro.ac/p/luogu-P1067 | 来自J满分题单：[NOIP 2009 普及组] 多项式输出 |
 
-> 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 6 道◆拓展题，覆盖不同变式和细节。
+> 💡 **练习建议**：先完成 7 道★核心题，确保掌握本章基本方法；再完成 6 道◆拓展题，覆盖不同变式和细节。
 
 
 
