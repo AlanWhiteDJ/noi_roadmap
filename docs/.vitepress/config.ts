@@ -105,6 +105,7 @@ const sidebarGuide = [
       { text: '第54章 数字的奥秘——初等数论', link: '/m8/第54章_数字的奥秘_初等数论' },
       { text: '第55章 辗转相除——GCD 与 LCM', link: '/m8/第55章_辗转相除_最大公约数与最小公倍数' },
       { text: '第56章 有多少种可能——排列组合', link: '/m8/第56章_有多少种可能_排列组合基础' },
+      { text: '第57章 树与二叉树入门', link: '/m8/第57章_树与二叉树入门' },
     ]
   },
 ]
@@ -150,6 +151,15 @@ export default withMermaid(
       '/m6/': sidebarGuide,
       '/m7/': sidebarGuide,
       '/m8/': sidebarGuide,
+      '/appendix/': [
+        {
+          text: '附录',
+          collapsed: false,
+          items: [
+            { text: '附录 A 计算机与网络基础', link: '/appendix/计算机与网络基础' },
+          ]
+        }
+      ],
       '/': sidebarGuide,
     },
 
