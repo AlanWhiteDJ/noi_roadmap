@@ -4,7 +4,7 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 // 侧边栏章节列表
 const sidebarGuide = [
   {
-    text: '上册（M1–M8）',
+    text: '模块 M1–M8',
     collapsed: false,
     items: [
   {
@@ -114,7 +114,7 @@ const sidebarGuide = [
   },    ]
   },
   {
-    text: '下册（M9–M15）',
+    text: '模块 M9–M15',
     collapsed: false,
     items: [
   {
@@ -152,58 +152,45 @@ export default withMermaid(
   themeConfig: {
     logo: '/logo.svg',
     nav: [
-      { text: '上册', link: '/' },
-      { text: '下册', link: '/lower/' },
       {
         text: '模块',
         items: [
-          {
-            text: '上册',
-            items: [
-              { text: 'M1 认识编程世界', link: '/m1/第01章_你好计算机' },
-              { text: 'M2 选择与重复', link: '/m2/第09章_岔路口_if_else分支' },
-              { text: 'M3 循环与数据容器', link: '/m3/第16章_一排柜子_一维数组' },
-              { text: 'M4 函数与进阶类型', link: '/m4/第23章_封装你的代码_函数入门' },
-              { text: 'M5 暴力与基础技巧', link: '/m5/第30章_暴力枚举_逐个尝试' },
-              { text: 'M6 排序与复杂度', link: '/m6/第38章_算法的速度_复杂度分析' },
-              { text: 'M7 递归贪心分治', link: '/m7/第44章_递归深潜_汉诺塔与全排列' },
-              { text: 'M8 线性结构与数论', link: '/m8/第51章_栈与队列_线性结构入门' },
-            ]
-          },
-          {
-            text: '下册',
-            items: [
-              { text: 'M9 数据结构与 STL', link: '/m9/第58章_STL容器_迭代器与bitset' },
-              { text: 'M10 图论（规划中）', link: '/lower/' },
-              { text: 'M11 树与树上问题（规划中）', link: '/lower/' },
-              { text: 'M12 算法基础与搜索（规划中）', link: '/lower/' },
-              { text: 'M13 动态规划（规划中）', link: '/lower/' },
-              { text: 'M14 数学（规划中）', link: '/lower/' },
-              { text: 'M15 实战与冲刺（规划中）', link: '/lower/' },
-            ]
-          },
+          { text: 'M1 认识编程世界', link: '/m1/第01章_你好计算机' },
+          { text: 'M2 选择与重复', link: '/m2/第09章_岔路口_if_else分支' },
+          { text: 'M3 循环与数据容器', link: '/m3/第16章_一排柜子_一维数组' },
+          { text: 'M4 函数与进阶类型', link: '/m4/第23章_封装你的代码_函数入门' },
+          { text: 'M5 暴力与基础技巧', link: '/m5/第30章_暴力枚举_逐个尝试' },
+          { text: 'M6 排序与复杂度', link: '/m6/第38章_算法的速度_复杂度分析' },
+          { text: 'M7 递归贪心分治', link: '/m7/第44章_递归深潜_汉诺塔与全排列' },
+          { text: 'M8 线性结构与数论', link: '/m8/第51章_栈与队列_线性结构入门' },
+          { text: 'M9 数据结构与 STL', link: '/m9/第58章_STL容器_迭代器与bitset' },
+          { text: 'M10 图论（规划中）', link: '/' },
+          { text: 'M11 树与树上问题（规划中）', link: '/' },
+          { text: 'M12 算法基础与搜索（规划中）', link: '/' },
+          { text: 'M13 动态规划（规划中）', link: '/' },
+          { text: 'M14 数学（规划中）', link: '/' },
+          { text: 'M15 实战与冲刺（规划中）', link: '/' },
         ]
       },
       { text: 'GitHub', link: 'https://github.com/AlanWhiteDJ/noi_roadmap' },
     ],
 
     sidebar: {
-      '/m1/': sidebarUpper,
-      '/m2/': sidebarUpper,
-      '/m3/': sidebarUpper,
-      '/m4/': sidebarUpper,
-      '/m5/': sidebarUpper,
-      '/m6/': sidebarUpper,
-      '/m7/': sidebarUpper,
-      '/m8/': sidebarUpper,
-      '/m9/': sidebarLower,
-      '/m10/': sidebarLower,
-      '/m11/': sidebarLower,
-      '/m12/': sidebarLower,
-      '/m13/': sidebarLower,
-      '/m14/': sidebarLower,
-      '/m15/': sidebarLower,
-      '/lower/': sidebarLower,
+      '/m1/': sidebarGuide,
+      '/m2/': sidebarGuide,
+      '/m3/': sidebarGuide,
+      '/m4/': sidebarGuide,
+      '/m5/': sidebarGuide,
+      '/m6/': sidebarGuide,
+      '/m7/': sidebarGuide,
+      '/m8/': sidebarGuide,
+      '/m9/': sidebarGuide,
+      '/m10/': sidebarGuide,
+      '/m11/': sidebarGuide,
+      '/m12/': sidebarGuide,
+      '/m13/': sidebarGuide,
+      '/m14/': sidebarGuide,
+      '/m15/': sidebarGuide,
       '/appendix/': [
         {
           text: '附录',
@@ -213,7 +200,7 @@ export default withMermaid(
           ]
         }
       ],
-      '/': sidebarUpper,
+      '/': sidebarGuide,
     },
 
     outline: {
