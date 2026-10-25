@@ -3,7 +3,6 @@ layout: home
 
 hero:
   name: "CSP-J/S 满分之路"
-  text: "信息学竞赛 C++ 教材 · 上册 CSP-J / 下册 CSP-S"
   tagline: 面向小学高年级 + 初中低年级 · 上册 57 章 + 下册 48 章 · M9 已上线
   actions:
     - theme: brand
@@ -12,6 +11,9 @@ hero:
     - theme: alt
       text: 模块导航
       link: /#模块导航
+    - theme: alt
+      text: 进入下册
+      link: /lower/
   image:
     src: /logo.svg
     alt: Logo
@@ -47,13 +49,7 @@ features:
 | M7 | [递归贪心分治](/m7/第44章_递归深潜_汉诺塔与全排列) | 用三种经典思想解决问题 | 7 | [Hydro](https://hydro.ac/d/atto/training/6addd37484bee48834b1682c) |
 | M8 | [线性结构与数论](/m8/第51章_栈与队列_线性结构入门) | 用栈/队列/链表 + 基础数论 | 7 |
 
-### 下册（M9–M15，48 章）
 
-| 模块 | 名称 | 学完后能做什么 | 章数 | 配套题单 |
-|:---:|------|--------------|:---:|:---:|
-| M9 | [数据结构与 STL](/m9/第58章_STL容器_迭代器与bitset) | 用 STL/堆/并查集/树状数组/线段树处理区间与集合问题 | 8 | [Hydro](https://hydro.ac/d/atto/training/6addd3805f809f20a8654773) |
-
-> 下册 M10–M15 规划中，当前已上线 M9。
 
 > 注：M4 第 28、29 章与 M5 第 37 章分别标注为「选学」和「工具章」，不计入主线进度；57 章总数不变。
 

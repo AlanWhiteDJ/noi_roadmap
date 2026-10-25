@@ -135,6 +135,9 @@ const sidebarGuide = [
   },
 ]
 
+const sidebarUpper = sidebarGuide.filter((g) => g.text.startsWith('上册'));
+const sidebarLower = sidebarGuide.filter((g) => g.text.startsWith('下册'));
+
 export default withMermaid(
   defineConfig({
   title: 'CSP-J/S 满分之路',
@@ -149,8 +152,8 @@ export default withMermaid(
   themeConfig: {
     logo: '/logo.svg',
     nav: [
-      { text: '首页', link: '/' },
-      { text: '上册 · 入门级', link: '/m1/第01章_你好计算机' },
+      { text: '上册', link: '/' },
+      { text: '下册', link: '/lower/' },
       {
         text: '模块',
         items: [
@@ -168,15 +171,22 @@ export default withMermaid(
     ],
 
     sidebar: {
-      '/m1/': sidebarGuide,
-      '/m2/': sidebarGuide,
-      '/m3/': sidebarGuide,
-      '/m4/': sidebarGuide,
-      '/m5/': sidebarGuide,
-      '/m6/': sidebarGuide,
-      '/m7/': sidebarGuide,
-      '/m8/': sidebarGuide,
-      '/m9/': sidebarGuide,
+      '/m1/': sidebarUpper,
+      '/m2/': sidebarUpper,
+      '/m3/': sidebarUpper,
+      '/m4/': sidebarUpper,
+      '/m5/': sidebarUpper,
+      '/m6/': sidebarUpper,
+      '/m7/': sidebarUpper,
+      '/m8/': sidebarUpper,
+      '/m9/': sidebarLower,
+      '/m10/': sidebarLower,
+      '/m11/': sidebarLower,
+      '/m12/': sidebarLower,
+      '/m13/': sidebarLower,
+      '/m14/': sidebarLower,
+      '/m15/': sidebarLower,
+      '/lower/': sidebarLower,
       '/appendix/': [
         {
           text: '附录',
@@ -186,7 +196,7 @@ export default withMermaid(
           ]
         }
       ],
-      '/': sidebarGuide,
+      '/': sidebarUpper,
     },
 
     outline: {
