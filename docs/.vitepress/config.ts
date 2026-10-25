@@ -107,6 +107,19 @@ const sidebarGuide = [
       { text: '第56章 有多少种可能——排列组合', link: '/m8/第56章_有多少种可能_排列组合基础' },
       { text: '第57章 树与二叉树入门', link: '/m8/第57章_树与二叉树入门' },
     ]
+  },  {
+    text: 'M9 数据结构与 STL（下册）',
+    collapsed: true,
+    items: [
+      { text: '第58章 STL 容器、迭代器与 bitset', link: '/m9/第58章_STL容器_迭代器与bitset' },
+      { text: '第59章 单调栈、单调队列与双端结构', link: '/m9/第59章_单调栈_单调队列与双端结构' },
+      { text: '第60章 堆与优先队列', link: '/m9/第60章_堆与优先队列' },
+      { text: '第61章 并查集与森林表示', link: '/m9/第61章_并查集与森林表示' },
+      { text: '第62章 哈希表与字符串哈希', link: '/m9/第62章_哈希表与字符串哈希' },
+      { text: '第63章 树状数组', link: '/m9/第63章_树状数组' },
+      { text: '第64章 线段树', link: '/m9/第64章_线段树' },
+      { text: '第65章 ST 表与字典树', link: '/m9/第65章_ST表与字典树' },
+    ]
   },
 ]
 
@@ -151,6 +164,7 @@ export default withMermaid(
       '/m6/': sidebarGuide,
       '/m7/': sidebarGuide,
       '/m8/': sidebarGuide,
+      '/m9/': sidebarGuide,
       '/appendix/': [
         {
           text: '附录',
