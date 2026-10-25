@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: "信息学竞赛 C++ 教材"
-  text: "从零到 CSP-J 第二轮"
+  name: "CSP-J/S 满分之路"
+  text: "信息学竞赛 C++ 教材 · 上册 CSP-J / 下册 CSP-S"
   tagline: 面向小学高年级 + 初中低年级 · 上册 57 章 + 下册 48 章 · M9 已上线
   actions:
     - theme: brand
@@ -28,7 +28,7 @@ features:
     details: 每章配三道阶梯练习——简单题巩固语法、进阶题培养思维、挑战题对接竞赛。从模仿到创造，逐级攀登。
   - icon: 🏆
     title: 对标竞赛大纲
-    details: 严格对标 NOI 2025 大纲（入门级）+ GESP C++ 1-5 级。学完上册，CSP-J 第二轮稳稳的。
+    details: 严格对标 NOI 2025 入门级 + 提高级大纲。上册冲 CSP-J 满分，下册冲 CSP-S 满分。
 
 ---
 
