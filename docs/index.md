@@ -10,7 +10,7 @@ hero:
       link: /m1/第01章_你好计算机
     - theme: alt
       text: 模块导航
-      link: /#模块导航
+      link: /#📚-模块导航
     - theme: alt
       text: 进入下册
       link: /lower/
