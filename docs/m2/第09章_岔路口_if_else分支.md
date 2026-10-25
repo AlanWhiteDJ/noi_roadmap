@@ -452,15 +452,15 @@ if (age = 18) {
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | J0027 | https://hydro.ac/d/srqc/p/J0027 | if-else、关系运算符>、比较 |
-| ◆ 拓展 | J0028 | https://hydro.ac/d/srqc/p/J0028 | if-else、逻辑&&、多条件组合 |
-| ◆ 拓展 | J0029 | https://hydro.ac/d/srqc/p/J0029 | if-else嵌套、闰年四条件 |
-| ◆ 拓展 | luogu-B2036 | https://hydro.ac/p/luogu-B2036 | 绝对值、if-else、三目?: |
-| ◆ 拓展 | luogu-B2040 | https://hydro.ac/p/luogu-B2040 | 判断两位数、关系+逻辑&& |
-| ◆ 拓展 | luogu-B2047 | https://hydro.ac/p/luogu-B2047 | 分段函数、else-if链、边界 |
-| ◆ 拓展 | J0031 | https://hydro.ac/d/srqc/p/J0031 | if-else、多条件分类 |
-| ◆ 拓展 | J0030 | https://hydro.ac/d/srqc/p/J0030 | if-else、字符串条件 |
-| ◆ 拓展 | luogu-B2041 | https://hydro.ac/p/luogu-B2041 | 简单&&、两个bool条件 |
+| ★ 核心 | J0027 | https://hydro.ac/d/atto/p/J0027 | if-else、关系运算符>、比较 |
+| ◆ 拓展 | J0028 | https://hydro.ac/d/atto/p/J0028 | if-else、逻辑&&、多条件组合 |
+| ◆ 拓展 | J0029 | https://hydro.ac/d/atto/p/J0029 | if-else嵌套、闰年四条件 |
+| ◆ 拓展 | luogu-B2036 | https://hydro.ac/d/atto/p/luogu-B2036 | 绝对值、if-else、三目?: |
+| ◆ 拓展 | luogu-B2040 | https://hydro.ac/d/atto/p/luogu-B2040 | 判断两位数、关系+逻辑&& |
+| ◆ 拓展 | luogu-B2047 | https://hydro.ac/d/atto/p/luogu-B2047 | 分段函数、else-if链、边界 |
+| ◆ 拓展 | J0031 | https://hydro.ac/d/atto/p/J0031 | if-else、多条件分类 |
+| ◆ 拓展 | J0030 | https://hydro.ac/d/atto/p/J0030 | if-else、字符串条件 |
+| ◆ 拓展 | luogu-B2041 | https://hydro.ac/d/atto/p/luogu-B2041 | 简单&&、两个bool条件 |
 
 > 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 8 道◆拓展题，覆盖不同变式和细节。
 

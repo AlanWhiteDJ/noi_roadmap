@@ -425,15 +425,15 @@ for (int i = 1; i <= 5; i++);
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | J0044 | https://hydro.ac/d/srqc/p/J0044 | for三要素、cin在循环内、打擂法 |
-| ◆ 拓展 | J0045 | https://hydro.ac/d/srqc/p/J0045 | for、累加累除、分类平均 |
-| ◆ 拓展 | J0049 | https://hydro.ac/d/srqc/p/J0049 | for、取模、逐位拆解、嵌套循环 |
-| ◆ 拓展 | J0050 | https://hydro.ac/d/srqc/p/J0050 | for/while互转、终止条件 |
-| ◆ 拓展 | J0051 | https://hydro.ac/d/srqc/p/J0051 | for嵌套、累加、天数模式 |
-| ◆ 拓展 | J0048 | https://hydro.ac/d/srqc/p/J0048 | for、累加、大数溢出(高精启蒙) |
-| ◆ 拓展 | J0035 | https://hydro.ac/d/srqc/p/J0035 | for+if、7天循环、最值 |
-| ◆ 拓展 | J0040 | https://hydro.ac/d/srqc/p/J0040 | for、取模%、工作日判断 |
-| ◆ 拓展 | J0064 | https://hydro.ac/d/srqc/p/J0064 | for、if-else、累加、状态跟踪 |
+| ★ 核心 | J0044 | https://hydro.ac/d/atto/p/J0044 | for三要素、cin在循环内、打擂法 |
+| ◆ 拓展 | J0045 | https://hydro.ac/d/atto/p/J0045 | for、累加累除、分类平均 |
+| ◆ 拓展 | J0049 | https://hydro.ac/d/atto/p/J0049 | for、取模、逐位拆解、嵌套循环 |
+| ◆ 拓展 | J0050 | https://hydro.ac/d/atto/p/J0050 | for/while互转、终止条件 |
+| ◆ 拓展 | J0051 | https://hydro.ac/d/atto/p/J0051 | for嵌套、累加、天数模式 |
+| ◆ 拓展 | J0048 | https://hydro.ac/d/atto/p/J0048 | for、累加、大数溢出(高精启蒙) |
+| ◆ 拓展 | J0035 | https://hydro.ac/d/atto/p/J0035 | for+if、7天循环、最值 |
+| ◆ 拓展 | J0040 | https://hydro.ac/d/atto/p/J0040 | for、取模%、工作日判断 |
+| ◆ 拓展 | J0064 | https://hydro.ac/d/atto/p/J0064 | for、if-else、累加、状态跟踪 |
 
 > 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 8 道◆拓展题，覆盖不同变式和细节。
 

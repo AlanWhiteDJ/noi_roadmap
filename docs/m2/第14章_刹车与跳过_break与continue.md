@@ -288,12 +288,12 @@ for (int i = 1; i <= 100; i++) {
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ◆ 拓展 | J0060 | https://hydro.ac/d/srqc/p/J0060 | break、找到即停、质因数 |
-| ◆ 拓展 | J0058 | https://hydro.ac/d/srqc/p/J0058 | continue、跳过处理、最值差 |
-| ◆ 拓展 | luogu-P1075 | https://hydro.ac/p/luogu-P1075 | break、第一个因数、出口 |
-| ◆ 拓展 | J0059 | https://hydro.ac/d/srqc/p/J0059 | break/continue、最长连号 |
-| ◆ 拓展 | luogu-P5724 | https://hydro.ac/p/luogu-P5724 | continue、跳过异常值 |
-| ◆ 拓展 | J0095 | https://hydro.ac/d/srqc/p/J0095 | break、多层循环标记变量跳出 |
+| ◆ 拓展 | J0060 | https://hydro.ac/d/atto/p/J0060 | break、找到即停、质因数 |
+| ◆ 拓展 | J0058 | https://hydro.ac/d/atto/p/J0058 | continue、跳过处理、最值差 |
+| ◆ 拓展 | luogu-P1075 | https://hydro.ac/d/atto/p/luogu-P1075 | break、第一个因数、出口 |
+| ◆ 拓展 | J0059 | https://hydro.ac/d/atto/p/J0059 | break/continue、最长连号 |
+| ◆ 拓展 | luogu-P5724 | https://hydro.ac/d/atto/p/luogu-P5724 | continue、跳过异常值 |
+| ◆ 拓展 | J0095 | https://hydro.ac/d/atto/p/J0095 | break、多层循环标记变量跳出 |
 
 > 💡 **练习建议**：先完成 0 道★核心题，确保掌握本章基本方法；再完成 6 道◆拓展题，覆盖不同变式和细节。
 

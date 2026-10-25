@@ -370,10 +370,10 @@ cmp 写法：
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ◆ 拓展 | luogu-P1068 | https://hydro.ac/p/luogu-P1068 | sort+分数线、150%规则 |
-| ◆ 拓展 | luogu-P1093 | https://hydro.ac/p/luogu-P1093 | 来自J满分题单：[NOIP 2007 普及组] 奖学金 |
-| ★ 核心 | luogu-P1104 | https://hydro.ac/p/luogu-P1104 | 来自J满分题单：生日 |
-| ◆ 拓展 | luogu-P1583 | https://hydro.ac/p/luogu-P1583 | 魔法照片：多关键字排序 |
+| ◆ 拓展 | luogu-P1068 | https://hydro.ac/d/atto/p/luogu-P1068 | sort+分数线、150%规则 |
+| ◆ 拓展 | luogu-P1093 | https://hydro.ac/d/atto/p/luogu-P1093 | 来自J满分题单：[NOIP 2007 普及组] 奖学金 |
+| ★ 核心 | luogu-P1104 | https://hydro.ac/d/atto/p/luogu-P1104 | 来自J满分题单：生日 |
+| ◆ 拓展 | luogu-P1583 | https://hydro.ac/d/atto/p/luogu-P1583 | 魔法照片：多关键字排序 |
 
 > 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 3 道◆拓展题，覆盖不同变式和细节。
 

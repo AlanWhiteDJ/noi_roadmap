@@ -430,14 +430,14 @@ while (i <= 5) {
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | J0046 | https://hydro.ac/d/srqc/p/J0046 | while、/=、条件循环 |
-| ◆ 拓展 | J0056 | https://hydro.ac/d/srqc/p/J0056 | while、取模、逐位拆解 |
-| ◆ 拓展 | J0053 | https://hydro.ac/d/srqc/p/J0053 | for+while、break、质数 |
-| ◆ 拓展 | J0054 | https://hydro.ac/d/srqc/p/J0054 | while、回文、质数双重判定 |
-| ◆ 拓展 | J0066 | https://hydro.ac/d/srqc/p/J0066 | while读入不定量、数组倒序 |
-| ◆ 拓展 | J0067 | https://hydro.ac/d/srqc/p/J0067 | while、冰雹猜想、状态变化 |
-| ◆ 拓展 | J0055 | https://hydro.ac/d/srqc/p/J0055 | while、等比累加、阈值 |
-| ◆ 拓展 | luogu-P1420 | https://hydro.ac/p/luogu-P1420 | while、连续计数、重置条件 |
+| ★ 核心 | J0046 | https://hydro.ac/d/atto/p/J0046 | while、/=、条件循环 |
+| ◆ 拓展 | J0056 | https://hydro.ac/d/atto/p/J0056 | while、取模、逐位拆解 |
+| ◆ 拓展 | J0053 | https://hydro.ac/d/atto/p/J0053 | for+while、break、质数 |
+| ◆ 拓展 | J0054 | https://hydro.ac/d/atto/p/J0054 | while、回文、质数双重判定 |
+| ◆ 拓展 | J0066 | https://hydro.ac/d/atto/p/J0066 | while读入不定量、数组倒序 |
+| ◆ 拓展 | J0067 | https://hydro.ac/d/atto/p/J0067 | while、冰雹猜想、状态变化 |
+| ◆ 拓展 | J0055 | https://hydro.ac/d/atto/p/J0055 | while、等比累加、阈值 |
+| ◆ 拓展 | luogu-P1420 | https://hydro.ac/d/atto/p/luogu-P1420 | while、连续计数、重置条件 |
 
 > 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 7 道◆拓展题，覆盖不同变式和细节。
 

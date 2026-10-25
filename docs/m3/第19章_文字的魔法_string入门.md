@@ -341,19 +341,19 @@ stringstream：
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | J0089 | https://hydro.ac/d/srqc/p/J0089 | string、getline、length |
-| ◆ 拓展 | J0085 | https://hydro.ac/d/srqc/p/J0085 | string、toupper、字符遍历 |
-| ◆ 拓展 | J0092 | https://hydro.ac/d/srqc/p/J0092 | string、映射表、按键次数 |
-| ◆ 拓展 | J0086 | https://hydro.ac/d/srqc/p/J0086 | string、字符偏移、模运算 |
-| ◆ 拓展 | luogu-P5733 | https://hydro.ac/p/luogu-P5733 | string、toupper/tolower、全转换 |
-| ◆ 拓展 | J0093 | https://hydro.ac/d/srqc/p/J0093 | string、查找相邻、计数 |
-| ◆ 拓展 | J0088 | https://hydro.ac/d/srqc/p/J0088 | string、类型判断、格式解析 |
+| ★ 核心 | J0089 | https://hydro.ac/d/atto/p/J0089 | string、getline、length |
+| ◆ 拓展 | J0085 | https://hydro.ac/d/atto/p/J0085 | string、toupper、字符遍历 |
+| ◆ 拓展 | J0092 | https://hydro.ac/d/atto/p/J0092 | string、映射表、按键次数 |
+| ◆ 拓展 | J0086 | https://hydro.ac/d/atto/p/J0086 | string、字符偏移、模运算 |
+| ◆ 拓展 | luogu-P5733 | https://hydro.ac/d/atto/p/luogu-P5733 | string、toupper/tolower、全转换 |
+| ◆ 拓展 | J0093 | https://hydro.ac/d/atto/p/J0093 | string、查找相邻、计数 |
+| ◆ 拓展 | J0088 | https://hydro.ac/d/atto/p/J0088 | string、类型判断、格式解析 |
 | ★ 核心 | atto#1037 | https://hydro.ac/d/atto/p/1037 | 来自J满分题单：1037   Multiplication Table |
-| ★ 核心 | luogu-P3880 | https://hydro.ac/p/luogu-P3880 | 来自J满分题单：[JLOI2008] 提示问题 |
+| ★ 核心 | luogu-P3880 | https://hydro.ac/d/atto/p/luogu-P3880 | 来自J满分题单：[JLOI2008] 提示问题 |
 | ★ 核心 | atto#1041 | https://hydro.ac/d/atto/p/1041 | 来自J满分题单：1041   [USACO09OCT] Barn Echoes G |
-| ★ 核心 | luogu-P1572 | https://hydro.ac/p/luogu-P1572 | 来自J满分题单：计算分数 |
-| ◆ 拓展 | luogu-P1603 | https://hydro.ac/p/luogu-P1603 | 来自J满分题单：斯诺登的密码 |
-| ◆ 拓展 | luogu-P1067 | https://hydro.ac/p/luogu-P1067 | 来自J满分题单：[NOIP 2009 普及组] 多项式输出 |
+| ★ 核心 | luogu-P1572 | https://hydro.ac/d/atto/p/luogu-P1572 | 来自J满分题单：计算分数 |
+| ◆ 拓展 | luogu-P1603 | https://hydro.ac/d/atto/p/luogu-P1603 | 来自J满分题单：斯诺登的密码 |
+| ◆ 拓展 | luogu-P1067 | https://hydro.ac/d/atto/p/luogu-P1067 | 来自J满分题单：[NOIP 2009 普及组] 多项式输出 |
 
 > 💡 **练习建议**：先完成 5 道★核心题，确保掌握本章基本方法；再完成 8 道◆拓展题，覆盖不同变式和细节。
 

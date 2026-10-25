@@ -328,9 +328,9 @@ vector 的核心优势：大小动态可变
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | luogu-P3156 | https://hydro.ac/p/luogu-P3156 | vector、push_back、下标 |
-| ◆ 拓展 | luogu-P5731 | https://hydro.ac/p/luogu-P5731 | vector、二维vector、蛇形 |
-| ◆ 拓展 | luogu-P3613 | https://hydro.ac/p/luogu-P3613 | 寄包柜：vector/map 嵌套 |
+| ★ 核心 | luogu-P3156 | https://hydro.ac/d/atto/p/luogu-P3156 | vector、push_back、下标 |
+| ◆ 拓展 | luogu-P5731 | https://hydro.ac/d/atto/p/luogu-P5731 | vector、二维vector、蛇形 |
+| ◆ 拓展 | luogu-P3613 | https://hydro.ac/d/atto/p/luogu-P3613 | 寄包柜：vector/map 嵌套 |
 
 > 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 2 道◆拓展题，覆盖不同变式和细节。
 

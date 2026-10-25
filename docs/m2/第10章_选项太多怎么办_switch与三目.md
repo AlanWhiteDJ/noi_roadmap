@@ -395,14 +395,14 @@ cout << (n % 2 == 0 ? "YES" : "NO") << endl;
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | J0034 | https://hydro.ac/d/srqc/p/J0034 | switch-case、break、default |
-| ◆ 拓展 | J0042 | https://hydro.ac/d/srqc/p/J0042 | if-else、计数、? : 三目 |
-| ◆ 拓展 | J0043 | https://hydro.ac/d/srqc/p/J0043 | 排序、条件判断、三输出 |
-| ◆ 拓展 | luogu-B2048 | https://hydro.ac/p/luogu-B2048 | switch、分段计费 |
-| ◆ 拓展 | J0032 | https://hydro.ac/d/srqc/p/J0032 | if-else链、BMI分段 |
-| ◆ 拓展 | J0036 | https://hydro.ac/d/srqc/p/J0036 | if-else、最小值、三选一 |
-| ◆ 拓展 | J0039 | https://hydro.ac/d/srqc/p/J0039 | 分段计费、else-if链、边界 |
-| ◆ 拓展 | luogu-B2050 | https://hydro.ac/p/luogu-B2050 | if-else、三角形条件、逻辑&& |
+| ★ 核心 | J0034 | https://hydro.ac/d/atto/p/J0034 | switch-case、break、default |
+| ◆ 拓展 | J0042 | https://hydro.ac/d/atto/p/J0042 | if-else、计数、? : 三目 |
+| ◆ 拓展 | J0043 | https://hydro.ac/d/atto/p/J0043 | 排序、条件判断、三输出 |
+| ◆ 拓展 | luogu-B2048 | https://hydro.ac/d/atto/p/luogu-B2048 | switch、分段计费 |
+| ◆ 拓展 | J0032 | https://hydro.ac/d/atto/p/J0032 | if-else链、BMI分段 |
+| ◆ 拓展 | J0036 | https://hydro.ac/d/atto/p/J0036 | if-else、最小值、三选一 |
+| ◆ 拓展 | J0039 | https://hydro.ac/d/atto/p/J0039 | 分段计费、else-if链、边界 |
+| ◆ 拓展 | luogu-B2050 | https://hydro.ac/d/atto/p/luogu-B2050 | if-else、三角形条件、逻辑&& |
 
 > 💡 **练习建议**：先完成 1 道★核心题，确保掌握本章基本方法；再完成 7 道◆拓展题，覆盖不同变式和细节。
 
