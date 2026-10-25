@@ -67,6 +67,27 @@ cout << b.any() << b.none();
 
 `bitset` 适合：01 背包的可行性、集合交并、状态压缩。它比 `bool` 数组省空间，位运算一次处理 64 位。
 
+### 58.5  类与运算符重载
+
+提高级要求会用 `class` 和运算符重载。它们不是“另一个世界”，只是把数据和操作打包在一起：
+
+```cpp
+class Point {
+public:
+    int x, y;
+    Point(int x = 0, int y = 0) : x(x), y(y) {}
+    Point operator+(const Point &o) const {
+        return Point(x + o.x, y + o.y);
+    }
+};
+```
+
+- `public/private` 控制访问权限
+- 构造函数负责初始化
+- `operator+` 让两个对象可以直接相加
+
+竞赛里最常见的用途：高精度、矩阵、分数、向量。
+
 ## 💻 例题
 
 **例 1**：输入 n 个数，去重后升序输出。
