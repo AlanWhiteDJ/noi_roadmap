@@ -2,74 +2,218 @@
 
 ---
 
-> 🏗️ **前情回顾**：本书你用过 `vector`、`sort`、`stack`、`queue`，它们都属于 C++ 标准模板库（STL）。这一章把 STL 的常用容器系统过一遍——它们是你写提高级代码的"工具箱"。
+> 🏗️ **前情回顾**：你已经用 `vector` 存过序列，用 `sort` 排过序，用 `stack`、`queue` 模拟过过程和 BFS。它们都来自 C++ 标准模板库（STL）。这一章把常用容器排成一张地图——拿到题目时，先想清楚"数据该怎么存"，再动手写代码。
 
 ## 🎯 本章目标
 
-- 掌握 vector / set / map / deque / priority_queue 的适用场景
-- 理解迭代器与范围 for
-- 会用 bitset 做位运算和状态压缩
-- 知道什么时候用 unordered_map、什么时候用 map
+学完这一章，你能：
+
+- 分清序列容器、关联容器和容器适配器，按需求选容器
+- 熟练使用 `vector`、`deque`、`set`、`map`、`unordered_map`
+- 理解迭代器与范围 for，写出不依赖下标的遍历代码
+- 会用 `pair`、`tuple` 和 STL 常用算法函数
+- 用 `bitset` 做位运算、集合表示和可行性 DP
+- 会用 `class` 与运算符重载封装高精度、矩阵等结构
+
+---
+
+## 📖 故事引入
+
+学校要办运动会，体育委员小周接到三张表：
+
+1. **报名顺序表**：谁先报名谁排在前面，方便点名；
+2. **学号名单**：同一个学号重复报名只算一次，还要按学号从小到大打印；
+3. **项目统计表**：给定一个学号，立刻回答"他报了几个项目"。
+
+用数组硬做，第二张表要自己写排序和去重，第三张表每次都要从头扫。小周写了两百行，改一个需求就崩一次。
+
+其实这三张表正好对应三种容器：`vector` 管顺序，`set` 管有序去重，`map` 管键值查询。选对容器，每张表都只需要几行代码。**数据结构的选择，往往比算法本身更早决定程序的命运。**
+
+---
 
 ## 🧱 知识讲解
 
-### 58.1  容器总览
+### 58.1  三类容器，一张地图
 
-| 容器 | 结构 | 特点 | 常见用途 |
+| 类别 | 代表 | 组织方式 | 特点 |
 |---|---|---|---|
-| `vector` | 动态数组 | 随机访问 O(1)，尾部插入快 | 存图、存序列 |
-| `deque` | 双端队列 | 两头插入删除 O(1) | 0-1 BFS、滑动窗口 |
-| `stack` | 栈 | 后进先出 | 括号、表达式 |
-| `queue` | 队列 | 先进先出 | BFS |
-| `priority_queue` | 堆 | 取最值 O(log n) | Dijkstra、Top-K |
-| `set/multiset` | 有序集合 | 自动排序、去重（multiset 不去重） | 维护有序集合 |
-| `map/multimap` | 有序映射 | 键值对，按键排序 | 计数、映射 |
-| `unordered_map` | 哈希表 | 平均 O(1)，无序 | 快速查找 |
-| `bitset` | 定长位集 | 位运算、空间小 | 状压、集合表示 |
+| 序列容器 | `vector`、`deque`、`list` | 按插入位置排列 | 关心"第几个" |
+| 有序关联容器 | `set`、`multiset`、`map`、`multimap` | 红黑树 | 自动按 key 排序，查找 O(log n) |
+| 无序关联容器 | `unordered_set`、`unordered_map` | 哈希表 | 平均 O(1)，无序，可能被卡 |
+| 容器适配器 | `stack`、`queue`、`priority_queue` | 包住另一种容器 | 只暴露特定接口 |
 
-### 58.2  迭代器与范围 for
+### 58.2  vector：默认选择
+
+`vector` 是动态数组，能自动扩容，随机访问 O(1)。
 
 ```cpp
-vector<int> a = {3, 1, 4};
-for (auto it = a.begin(); it != a.end(); ++it)
-    cout << *it << ' ';
+vector<int> a;              // 空
+vector<int> b(5, 0);        // 5 个 0
+vector<int> c = {3, 1, 4};  // 列表初始化
 
-for (int x : a) cout << x << ' ';   // 范围 for
+a.push_back(10);            // 尾部插入
+a.pop_back();               // 尾部删除
+a.size();  a.empty();       // 元素个数 / 是否为空
+a.clear(); a.resize(8);     // 清空 / 调整大小（多出的补 0）
+a.reserve(1000);            // 预分配，避免反复扩容
 ```
 
-- `begin()` 指向第一个元素，`end()` 指向最后一个元素的**下一个位置**
-- `set/map` 的迭代器不支持随机访问，只能 `++/--`
-- `lower_bound(s.begin(), s.end(), x)` 返回第一个 `>= x` 的位置
+二维数组也很自然：
 
-### 58.3  set 与 map
+```cpp
+vector<vector<int>> g(n + 1);                        // 邻接表
+vector<vector<int>> f(n + 1, vector<int>(m + 1, 0)); // 矩阵
+```
+
+> ⚠️ `push_back` 触发扩容时，指向旧内存的迭代器、指针、引用全部失效。不要在范围 for 里 `push_back`。
+
+`deque` 两头插入删除都是 O(1)，也支持下标：
+
+```cpp
+deque<int> q;
+q.push_back(1); q.push_front(2);
+q.pop_back();   q.pop_front();
+cout << q[0];
+```
+
+它适合滑动窗口、0-1 BFS。`list` 是双向链表，任意位置插入删除 O(1)，但不支持下标，竞赛里少用。
+
+### 58.3  set 与 map：让数据自己排队
+
+`set` 是有序集合，自动去重、自动升序：
 
 ```cpp
 set<int> s;
-s.insert(3); s.insert(1); s.insert(3);   // {1,3}
+s.insert(3); s.insert(1); s.insert(3);  // 重复插入失败
+cout << s.size();                       // 2
 s.erase(1);
-if (s.count(3)) cout << "有 3";
-
-map<string, int> cnt;
-cnt["apple"]++;            // 不存在时自动插入 0
-for (auto &p : cnt) cout << p.first << ' ' << p.second;
+if (s.count(3)) cout << "存在";
 ```
 
-> ⚠️ `map` 的 `[]` 会插入默认值；只想查询用 `find` 或 `count`。
+`s.find(x)` 返回迭代器，找不到返回 `s.end()`。`multiset` 允许重复，`erase(x)` 会删光所有 x；只删一个要写 `s.erase(s.find(x))`。
 
-### 58.4  bitset
+`map` 是键值对，按键升序：
 
 ```cpp
-bitset<100> b;
-b[3] = 1; b.set(5); b.reset(3);
-cout << b.count();          // 1 的个数
-cout << b.any() << b.none();
+map<string, int> cnt;
+cnt["apple"]++;             // 不存在时先插入 0，再加 1
+for (auto &p : cnt)
+    cout << p.first << ' ' << p.second << '\n';
 ```
 
-`bitset` 适合：01 背包的可行性、集合交并、状态压缩。它比 `bool` 数组省空间，位运算一次处理 64 位。
+`p.first` 是键，`p.second` 是值。`map` 的 `[]` 有副作用：查询不存在的键会把它插进去。只想查询时用 `find`：
 
-### 58.5  类与运算符重载
+```cpp
+auto it = cnt.find("apple");
+if (it != cnt.end()) cout << it->second;
+```
 
-提高级要求会用 `class` 和运算符重载。它们不是“另一个世界”，只是把数据和操作打包在一起：
+`unordered_map` 用哈希表实现，平均 O(1)，但不保证顺序，可能被特殊数据卡到 O(n)。键是整数且数据不强时它很划算；正式比赛担心被卡，就换 `map` 或手写哈希。
+
+### 58.4  迭代器与范围 for
+
+迭代器是"容器里的指针"，`*it` 取值，`++it` 前进：
+
+```cpp
+vector<int> a = {10, 20, 30};
+for (vector<int>::iterator it = a.begin(); it != a.end(); ++it)
+    cout << *it << ' ';
+```
+
+`begin()` 指向第一个元素，`end()` 指向最后一个元素的**下一个位置**，所以条件是 `it != a.end()`。
+
+范围 for 更常用：
+
+```cpp
+for (int x : a) cout << x << ' ';        // 拷贝，改 x 不影响容器
+for (int &x : a) x *= 2;                 // 引用，能修改
+for (const auto &x : a) cout << x;       // 只读，避免拷贝
+```
+
+`set/map` 的迭代器只能 `++/--`，不能 `+k`。找第一个大于等于 x 的位置：
+
+```cpp
+auto it = s.lower_bound(x);   // 第一个 >= x
+auto jt = s.upper_bound(x);   // 第一个 > x
+```
+
+在 `set` 里边遍历边删除，要接住返回值：
+
+```cpp
+for (auto it = s.begin(); it != s.end(); ) {
+    if (*it % 2 == 0) it = s.erase(it);
+    else ++it;
+}
+```
+
+### 58.5  bitset：把 01 状态压进一个字
+
+`bitset<N>` 是长度固定的位集，N 必须是编译期常量。100 万个状态只占 125 KB。
+
+```cpp
+bitset<8> b;              // 00000000
+b[0] = 1;                 // 00000001
+b.set(3);                 // 00001001
+b.set();  b.reset(3);     // 全置 1 / 清掉第 3 位
+b.flip(0);                // 第 0 位取反
+
+cout << b.count();        // 7（此时 b = 11110110）
+cout << b.any() << b.none() << b.all();
+cout << b.test(3);        // 0
+cout << b.to_string();    // "11110110"
+```
+
+它支持整组位运算：`x & y`、`x | y`、`x ^ y`、`x << 2`，一次处理一整排 bit。
+
+最漂亮的应用是**可行性 DP**：
+
+```cpp
+bitset<100005> f;
+f[0] = 1;
+for (int i = 1; i <= n; i++) {
+    int w; cin >> w;
+    f |= (f << w);        // 选或不选，一次移位完成
+}
+```
+
+`f << w` 表示"每个已凑出的重量都加上 w"，再与原集合取并，正好对应 0/1 背包。它也能做集合交并和状压表示。
+
+### 58.6  pair、tuple 与常用算法
+
+`pair` 把两个值绑在一起，天生支持比较（先 first，后 second）：
+
+```cpp
+pair<int, int> p = {3, 5};
+vector<pair<int, int>> v;
+v.push_back({1, 2});
+sort(v.begin(), v.end());
+```
+
+`tuple` 可以装三个及以上，用 `get<k>(t)` 取第 k 项，用 `tie` 解包：
+
+```cpp
+tuple<int, int, string> t = make_tuple(1, 2, "abc");
+int a, b; string s;
+tie(a, b, s) = t;
+```
+
+STL 算法都接收左闭右开区间 `[begin, end)`：
+
+```cpp
+sort(a.begin(), a.end());                      // 升序
+sort(a.begin(), a.end(), greater<int>());      // 降序
+a.erase(unique(a.begin(), a.end()), a.end());  // 去重（要求已排序）
+reverse(a.begin(), a.end());
+int s = accumulate(a.begin(), a.end(), 0);     // 求和
+int mx = *max_element(a.begin(), a.end());
+int pos = lower_bound(a.begin(), a.end(), x) - a.begin();
+```
+
+> ⚠️ `unique` 只把重复元素移到后面，并不会真正删除；必须配合 `erase`，而且调用前必须排序。
+
+### 58.7  类与运算符重载
+
+把"一组数据 + 一组操作"打包成类：
 
 ```cpp
 class Point {
@@ -79,41 +223,134 @@ public:
     Point operator+(const Point &o) const {
         return Point(x + o.x, y + o.y);
     }
+    bool operator<(const Point &o) const {
+        if (x != o.x) return x < o.x;
+        return y < o.y;
+    }
 };
 ```
 
-- `public/private` 控制访问权限
-- 构造函数负责初始化
-- `operator+` 让两个对象可以直接相加
+- `public` 外部可访问，`private` 只能内部用；
+- 构造函数负责初始化，`: x(x), y(y)` 是初始化列表；
+- 末尾 `const` 表示不修改对象，`sort` 和 `set` 都要求比较运算符能处理 const 对象。
 
-竞赛里最常见的用途：高精度、矩阵、分数、向量。
+竞赛里最需要写类的地方：**高精度整数、矩阵、分数、几何向量**。
+
+---
 
 ## 💻 例题
 
-**例 1**：输入 n 个数，去重后升序输出。
+### 例 1  明明的随机数（P1059）
+
+**题意**：输入 n 个 1 到 1000 的整数，去重后从小到大输出。
+
+**思路一**：排序 + `unique`：
+
+```cpp
+sort(a.begin(), a.end());
+a.erase(unique(a.begin(), a.end()), a.end());
+cout << a.size() << '\n';
+for (int x : a) cout << x << ' ';
+```
+
+**思路二**：`set` 自动去重排序：
 
 ```cpp
 set<int> s;
 for (int i = 0, x; i < n; i++) { cin >> x; s.insert(x); }
+cout << s.size() << '\n';
 for (int x : s) cout << x << ' ';
 ```
 
-**例 2**：寄包柜——q 次操作，`1 i j k` 表示第 i 个柜子第 j 格放 k，`2 i j` 查询。
+**解析**：两版都是 O(n log n)。`set` 适合边读边维护；`vector` 常数小，只排一次时通常更快。
 
-用 `map<pair<int,int>, int>` 或 `vector<map<int,int>>`，只存有东西的格子。
+### 例 2  寄包柜（P3613）
 
-## ⚠️ 常见坑
+**题意**：n 个柜子，q 次操作：`1 i j k` 把第 i 个柜子第 j 格放入 k；`2 i j` 查询该格，没有输出 0。
 
-1. `set` 的 `erase(it)` 会让迭代器失效；循环里用 `it = s.erase(it)`
-2. `priority_queue` 默认大根堆，小根堆写 `greater<int>`
-3. `unordered_map` 可能被卡哈希，竞赛里键是整数时用 `map` 或手写哈希
-4. `bitset` 的长度必须是编译期常量
+**思路**：柜子和格子都多，真正用到的位置少，用 `map<pair<int,int>, int>` 只记有东西的格子：
 
-## 📝 练习
+```cpp
+map<pair<int, int>, int> box;
+while (q--) {
+    int op, i, j; cin >> op >> i >> j;
+    if (op == 1) {
+        int k; cin >> k;
+        box[{i, j}] = k;
+    } else {
+        auto it = box.find({i, j});
+        cout << (it == box.end() ? 0 : it->second) << '\n';
+    }
+}
+```
 
-- 基础：用 `set` 完成去重排序；用 `map` 统计单词出现次数
-- 提高：用 `priority_queue` 合并 k 个有序数组
-- 挑战：用 `bitset` 优化 01 背包的可行性
+**解析**：状态数不超过 q，空间 O(q)，每次 O(log q)。开 `n × m` 数组会爆空间——**稀疏数据用映射，稠密数据用数组**。
+
+### 例 3  可行性背包
+
+**题意**：给 n 个正整数重量，问能凑出多少种不同的正重量。
+
+**思路**：`f[i]` 表示重量 i 能否凑出，用 `bitset` 把内层循环压成一次移位：
+
+```cpp
+bitset<100005> f;
+f[0] = 1;
+int sum = 0;
+for (int i = 0; i < n; i++) {
+    int w; cin >> w;
+    f |= (f << w);
+    sum += w;
+}
+int ans = 0;
+for (int i = 1; i <= sum; i++) ans += f[i];
+cout << ans;
+```
+
+**解析**：一次 `<<` 和 `|` 处理 64 位，复杂度 O(n·sum/64)。`bitset` 长度要大于最大重量，否则高位被截断。
+
+---
+
+## ⚠️ 常见错误
+
+1. **在范围 for 里修改容器大小**：`for (int x : v) v.push_back(x);` 会让迭代器失效，甚至死循环。扩容时用下标循环，并提前记录原长度。
+2. **以为 `multiset.erase(x)` 只删一个**：它会把所有 x 删光。只删一个用 `s.erase(s.find(x))`。
+3. **用 `map[]` 查询**：不存在的键会被插入，`size()` 变大、遍历多出 0。查询请用 `find` 或 `count`。
+4. **范围 for 用值拷贝修改**：`for (int x : v) x++;` 改的是副本，必须写 `int &x`。
+5. **`lower_bound` 用在无序区间**：它要求升序，否则结果没有意义。
+6. **`bitset` 长度写成变量**：`bitset<n>` 编译不过，n 必须是常量表达式。
+7. **迷信 `unordered_map`**：同余键太多会退化成链，复杂度敏感时优先 `map`。
+
+---
+
+## 🧠 本章小结
+
+```
+序列容器：vector（默认）  deque（两头动）  list（少用）
+关联容器：set/multiset（有序去重）  map/multimap（有序键值）
+无序容器：unordered_map（平均 O(1)，可能被卡）
+适配器：  stack / queue / priority_queue
+
+迭代器：begin() 到 end() 前一个位置，++ 前进，* 取值
+范围 for：for (int &x : v) 才能改
+
+bitset<N>：N 为常量；count/any/none/set/reset/flip
+           f |= (f << w) 是可行性背包的利器
+
+算法：sort / unique / reverse / lower_bound / accumulate
+      unique 前必须排序，且要配合 erase
+```
+
+**自查清单**：
+
+- [ ] 我能说出 vector、deque、set、map 各自适合什么场景
+- [ ] 我知道 `map[]` 会插入默认值，查询要用 `find`
+- [ ] 我会用迭代器遍历，并能在遍历中安全删除
+- [ ] 我理解 `begin/end` 的左闭右开区间
+- [ ] 我会用 `bitset` 写可行性背包
+- [ ] 我知道 `unique` 必须配合排序和 `erase`
+- [ ] 我能写出带构造函数和运算符重载的简单类
+
+---
 
 ## 📝 配套练习
 
