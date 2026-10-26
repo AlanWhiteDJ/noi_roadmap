@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "CSP-J/S 满分之路"
-  tagline: 面向小学高年级 + 初中低年级 · 105 章 · 979 道练习 · 从 CSP-J 到 CSP-S
+  tagline: 105 章 · 979 道练习 · 从 CSP-J 到 CSP-S
   actions:
     - theme: brand
       text: 开始学习
