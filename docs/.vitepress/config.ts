@@ -108,7 +108,7 @@ const sidebarGuide = [
       { text: '第57章 树与二叉树入门', link: '/m8/第57章_树与二叉树入门' },
     ]
   },  {
-    text: 'M9 数据结构与 STL（下册）',
+    text: 'M9 数据结构与 STL',
     collapsed: true,
     items: [
       { text: '第58章 STL 容器、迭代器与 bitset', link: '/m9/第58章_STL容器_迭代器与bitset' },
@@ -122,7 +122,7 @@ const sidebarGuide = [
     ]
   },
   {
-    text: 'M10 图论（下册）',
+    text: 'M10 图论',
     collapsed: true,
     items: [
       { text: '第66章 图的存储与遍历', link: '/m10/第66章_图的存储与遍历' },
@@ -136,7 +136,7 @@ const sidebarGuide = [
     ]
   },
   {
-    text: 'M11 树与树上问题（下册）',
+    text: 'M11 树与树上问题',
     collapsed: true,
     items: [
       { text: '第74章 DFS 序与欧拉序', link: '/m11/第74章_DFS序与欧拉序' },
@@ -148,7 +148,7 @@ const sidebarGuide = [
     ]
   },
   {
-    text: 'M12 算法基础与搜索（下册）',
+    text: 'M12 算法基础与搜索',
     collapsed: true,
     items: [
       { text: '第80章 复杂度分析与卡常', link: '/m12/第80章_复杂度分析与卡常' },
@@ -160,7 +160,7 @@ const sidebarGuide = [
     ]
   },
   {
-    text: 'M13 动态规划（下册）',
+    text: 'M13 动态规划',
     collapsed: true,
     items: [
       { text: '第86章 多维 DP', link: '/m13/第86章_多维DP' },
@@ -173,7 +173,7 @@ const sidebarGuide = [
     ]
   },
   {
-    text: 'M14 数学（下册）',
+    text: 'M14 数学',
     collapsed: true,
     items: [
       { text: '第93章 同余与四大定理', link: '/m14/第93章_同余与四大定理' },
@@ -186,7 +186,7 @@ const sidebarGuide = [
     ]
   },
   {
-    text: 'M15 实战与冲刺（下册）',
+    text: 'M15 实战与冲刺',
     collapsed: true,
     items: [
       { text: '第100章 扫描线', link: '/m15/第100章_扫描线' },
