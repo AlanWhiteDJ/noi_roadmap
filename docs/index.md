@@ -42,8 +42,7 @@ features:
 | M5 | [暴力与基础技巧](/m5/第30章_暴力枚举_逐个尝试) | 用枚举/模拟解决简单问题 | 8 | [Hydro](https://hydro.ac/d/atto/training/6addd3595f809f20a86544ca) |
 | M6 | [排序与复杂度](/m6/第38章_算法的速度_复杂度分析) | 理解算法快慢，写出排序程序 | 6 | [Hydro](https://hydro.ac/d/atto/training/6addd3665f809f20a865455e) |
 | M7 | [递归贪心分治](/m7/第44章_递归深潜_汉诺塔与全排列) | 用三种经典思想解决问题 | 7 | [Hydro](https://hydro.ac/d/atto/training/6addd37484bee48834b1682c) |
-| M8 | [线性结构与数论](/m8/第51章_栈与队列_线性结构入门) | 用栈/队列/链表 + 基础数论 | 7 |
-
+| M8 | [线性结构与数论](/m8/第51章_栈与队列_线性结构入门) | 用栈/队列/链表 + 基础数论 | 7 | [Hydro](https://hydro.ac/d/atto/training/6addd3805f809f20a8654773) |
 | M9 | [数据结构与 STL](/m9/第58章_STL容器_迭代器与bitset) | 用 STL/堆/并查集/树状数组/线段树处理区间与集合问题 | 8 | [Hydro](https://hydro.ac/d/atto/training/6ade003484bee48834b2f46e) |
 | M10 | [图论](/m10/第66章_图的存储与遍历) | 建图、遍历、最短路、MST、连通性 | 8 | [Hydro](https://hydro.ac/d/atto/training/6ade00405f809f20a8672c50) |
 | M11 | [树与树上问题](/m11/第74章_DFS序与欧拉序) | DFS 序、LCA、树上差分、树剖 | 6 | [Hydro](https://hydro.ac/d/atto/training/6ade004d84bee48834b2f4fa) |
