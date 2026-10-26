@@ -199,8 +199,6 @@ const sidebarGuide = [
   },
 ]
 
-const sidebarUpper = sidebarGuide.filter((g) => g.text.startsWith('上册'));
-const sidebarLower = sidebarGuide.filter((g) => g.text.startsWith('下册'));
 
 export default withMermaid(
   defineConfig({
