@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "CSP-J/S 满分之路"
-  tagline: 105 章 · 979 道练习 · 从 CSP-J 到 CSP-S
+  tagline: 105 章 · 979 道练习 · 从零到 CSP-S 满分
   actions:
     - theme: brand
       text: 开始学习
@@ -27,7 +27,7 @@ features:
     details: 每章配三道阶梯练习——简单题巩固语法、进阶题培养思维、挑战题对接竞赛。从模仿到创造，逐级攀登。
   - icon: 🏆
     title: 对标竞赛大纲
-    details: 严格对标 NOI 2025 入门级 + 提高级大纲。M1–M8 冲 CSP-J 满分，M9–M15 冲 CSP-S 满分。
+    details: 严格对标 NOI 2025 入门级 + 提高级大纲，从零基础一路走到 CSP-S 满分。
 
 ---
 
@@ -81,7 +81,7 @@ graph LR
 
 ## 📖 本书特色
 
-**全书 = CSP-J/S 满分**：M1–M8 打 CSP-J，M9–M15 冲 CSP-S——两个里程碑，一本书走完。
+**全书 = 从零到 CSP-S 满分**：一条学习路径走完入门级与提高级。
 
 - 🧠 **问题链组织**：每章回答学生自然产生的问题，不灌输、只引导
 - 📝 **GROW 教练问题**：每章配备引导式提问，帮助自查理解
@@ -90,7 +90,7 @@ graph LR
 
 ---
 
-> **学习路径**：M1–M8 打 CSP-J 第二轮，M9–M15 冲 CSP-S / NOIP 满分。
+> **学习路径**：从 M1 零基础到 M15，一路走到 CSP-S / NOIP 满分。
 
 <style>
 :root {

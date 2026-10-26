@@ -203,7 +203,7 @@ const sidebarGuide = [
 export default withMermaid(
   defineConfig({
   title: 'CSP-J/S 满分之路',
-  description: '信息学竞赛 C++ 教材 | CSP-J/S 满分 | NOI 2025 入门级+提高级',
+  description: '信息学竞赛 C++ 教材 | 从零到 CSP-S 满分 | NOI 2025 入门级+提高级',
   lang: 'zh-CN',
   base: '/noi_roadmap/',
 

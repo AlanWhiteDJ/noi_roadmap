@@ -10,7 +10,7 @@
 - **56 章**
 - **250 课时**
 
-从"Hello World"到 CSP-J 第二轮。
+从"Hello World"到 CSP-S 满分。
 
 ## 🚀 本地开发
 
