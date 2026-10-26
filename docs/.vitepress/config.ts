@@ -4,10 +4,6 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 // 侧边栏章节列表
 const sidebarGuide = [
   {
-    text: '模块 M1–M8',
-    collapsed: false,
-    items: [
-  {
     text: 'M1 认识编程世界',
     collapsed: false,
     items: [
@@ -111,13 +107,7 @@ const sidebarGuide = [
       { text: '第56章 有多少种可能——排列组合', link: '/m8/第56章_有多少种可能_排列组合基础' },
       { text: '第57章 树与二叉树入门', link: '/m8/第57章_树与二叉树入门' },
     ]
-  },    ]
-  },
-  {
-    text: '模块 M9–M15',
-    collapsed: false,
-    items: [
-  {
+  },  {
     text: 'M9 数据结构与 STL（下册）',
     collapsed: true,
     items: [
@@ -205,8 +195,6 @@ const sidebarGuide = [
       { text: '第103章 对拍、调试与卡常', link: '/m15/第103章_对拍_调试与卡常' },
       { text: '第104章 初赛读程序/完善程序专项', link: '/m15/第104章_初赛读程序专项' },
       { text: '第105章 CSP-S 全真模拟', link: '/m15/第105章_全真模拟' },
-    ]
-  }
     ]
   },
 ]

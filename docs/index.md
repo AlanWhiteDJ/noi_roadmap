@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "CSP-J/S 满分之路"
-  tagline: 面向小学高年级 + 初中低年级 · 上册 57 章 + 下册 48 章 · M9–M15 已上线
+  tagline: 面向小学高年级 + 初中低年级 · 105 章 · 979 道练习 · 从 CSP-J 到 CSP-S
   actions:
     - theme: brand
       text: 开始学习
@@ -33,8 +33,6 @@ features:
 
 ## 📚 模块导航
 
-### 上册（M1–M8，57 章）
-
 | 模块 | 名称 | 学完后能做什么 | 章数 | 配套题单 |
 |:---:|------|--------------|:---:|:---:|
 | M1 | [认识编程世界](/m1/第01章_你好计算机) | 写出第一个程序，理解变量和运算 | 8 | [Hydro](https://hydro.ac/d/atto/training/6addd3273fd58de1c09eb8b2) |
@@ -46,10 +44,6 @@ features:
 | M7 | [递归贪心分治](/m7/第44章_递归深潜_汉诺塔与全排列) | 用三种经典思想解决问题 | 7 | [Hydro](https://hydro.ac/d/atto/training/6addd37484bee48834b1682c) |
 | M8 | [线性结构与数论](/m8/第51章_栈与队列_线性结构入门) | 用栈/队列/链表 + 基础数论 | 7 |
 
-## 📚 下册（M9–M15，48 章）
-
-| 模块 | 名称 | 学完后能做什么 | 章数 | 配套题单 |
-|:---:|------|--------------|:---:|:---:|
 | M9 | [数据结构与 STL](/m9/第58章_STL容器_迭代器与bitset) | 用 STL/堆/并查集/树状数组/线段树处理区间与集合问题 | 8 | [Hydro](https://hydro.ac/d/atto/training/6ade003484bee48834b2f46e) |
 | M10 | [图论](/m10/第66章_图的存储与遍历) | 建图、遍历、最短路、MST、连通性 | 8 | [Hydro](https://hydro.ac/d/atto/training/6ade00405f809f20a8672c50) |
 | M11 | [树与树上问题](/m11/第74章_DFS序与欧拉序) | DFS 序、LCA、树上差分、树剖 | 6 | [Hydro](https://hydro.ac/d/atto/training/6ade004d84bee48834b2f4fa) |
@@ -58,7 +52,6 @@ features:
 | M14 | [数学](/m14/第93章_同余与四大定理) | 同余、逆元、组合、矩阵、高斯消元 | 7 | [Hydro](https://hydro.ac/d/atto/training/6ade00713fd58de1c0a02884) |
 | M15 | [实战与冲刺](/m15/第100章_扫描线) | 扫描线、构造、对拍、初赛、模拟赛 | 6 | [Hydro](https://hydro.ac/d/atto/training/6ade00813fd58de1c0a028d2) |
 
-> M10–M15 规划中；当前已上线 M9（第 58–65 章）。
 
 
 
