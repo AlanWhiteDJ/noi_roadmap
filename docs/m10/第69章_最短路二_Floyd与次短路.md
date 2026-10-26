@@ -315,14 +315,14 @@ Floyd：f[k][i][j] = min(f[k-1][i][j], f[k-1][i][k] + f[k-1][k][j])
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | atto#395 | https://hydro.ac/d/atto/p/395 | 来自题单 |
-| ★ 核心 | luogu-P1250 | https://hydro.ac/d/atto/p/luogu-P1250 | 来自题单 |
-| ★ 核心 | luogu-P5960 | https://hydro.ac/d/atto/p/luogu-P5960 | 来自题单 |
-| ◆ 拓展 | luogu-P1993 | https://hydro.ac/d/atto/p/luogu-P1993 | 来自题单 |
-| ◆ 拓展 | luogu-P4878 | https://hydro.ac/d/atto/p/luogu-P4878 | 来自题单 |
-| ◆ 拓展 | luogu-P3275 | https://hydro.ac/d/atto/p/luogu-P3275 | 来自题单 |
-| ★★★ 挑战 | luogu-P7624 | https://hydro.ac/d/atto/p/luogu-P7624 | 来自题单 |
-| ★★★ 挑战 | luogu-P2474 | https://hydro.ac/d/atto/p/luogu-P2474 | 来自题单 |
-| ★★★ 挑战 | luogu-P3084 | https://hydro.ac/d/atto/p/luogu-P3084 | 来自题单 |
-| ★★★ 挑战 | luogu-P4926 | https://hydro.ac/d/atto/p/luogu-P4926 | 来自题单 |
+| ★ 核心 | atto#395 | https://hydro.ac/d/atto/p/395 | 知识点：395 [USACO20FEB] Timeline G |
+| ★ 核心 | luogu-P1250 | https://hydro.ac/d/atto/p/luogu-P1250 | 知识点：种树 |
+| ★ 核心 | luogu-P5960 | https://hydro.ac/d/atto/p/luogu-P5960 | 知识点：【模板】差分约束 |
+| ◆ 拓展 | luogu-P1993 | https://hydro.ac/d/atto/p/luogu-P1993 | 知识点：小 K 的农场 |
+| ◆ 拓展 | luogu-P4878 | https://hydro.ac/d/atto/p/luogu-P4878 | 知识点：[USACO05DEC] Layout G |
+| ◆ 拓展 | luogu-P3275 | https://hydro.ac/d/atto/p/luogu-P3275 | 知识点：[SCOI2011] 糖果 |
+| ★★★ 挑战 | luogu-P7624 | https://hydro.ac/d/atto/p/luogu-P7624 | 知识点：[AHOI2021初中组] 地铁 |
+| ★★★ 挑战 | luogu-P2474 | https://hydro.ac/d/atto/p/luogu-P2474 | 知识点：[SCOI2008] 天平 |
+| ★★★ 挑战 | luogu-P3084 | https://hydro.ac/d/atto/p/luogu-P3084 | 知识点：[USACO13OPEN] Photo G |
+| ★★★ 挑战 | luogu-P4926 | https://hydro.ac/d/atto/p/luogu-P4926 | 知识点：[1007] 倍杀测量者 |
 

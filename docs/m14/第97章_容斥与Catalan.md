@@ -357,21 +357,21 @@ Catalan：
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | luogu-P8557 | https://hydro.ac/d/atto/p/luogu-P8557 | 来自题单 |
-| ★ 核心 | luogu-P5505 | https://hydro.ac/d/atto/p/luogu-P5505 | 来自题单 |
-| ★ 核心 | luogu-P6298 | https://hydro.ac/d/atto/p/luogu-P6298 | 来自题单 |
-| ★ 核心 | luogu-P6162 | https://hydro.ac/d/atto/p/luogu-P6162 | 来自题单 |
-| ★ 核心 | luogu-P6692 | https://hydro.ac/d/atto/p/luogu-P6692 | 来自题单 |
-| ◆ 拓展 | luogu-P6076 | https://hydro.ac/d/atto/p/luogu-P6076 | 来自题单 |
-| ◆ 拓展 | luogu-P5664 | https://hydro.ac/d/atto/p/luogu-P5664 | 来自题单 |
-| ◆ 拓展 | luogu-P3197 | https://hydro.ac/d/atto/p/luogu-P3197 | 来自题单 |
-| ◆ 拓展 | luogu-P1450 | https://hydro.ac/d/atto/p/luogu-P1450 | 来自题单 |
-| ◆ 拓展 | codeforces-P803F | https://hydro.ac/d/atto/p/codeforces-P803F | 来自题单 |
-| ★★★ 挑战 | luogu-P7118 | https://hydro.ac/d/atto/p/luogu-P7118 | 来自题单 |
-| ★★★ 挑战 | luogu-P3200 | https://hydro.ac/d/atto/p/luogu-P3200 | 来自题单 |
-| ★★★ 挑战 | luogu-P1976 | https://hydro.ac/d/atto/p/luogu-P1976 | 来自题单 |
-| ★★★ 挑战 | luogu-P1722 | https://hydro.ac/d/atto/p/luogu-P1722 | 来自题单 |
-| ★★★ 挑战 | luogu-P1754 | https://hydro.ac/d/atto/p/luogu-P1754 | 来自题单 |
-| ★★★ 挑战 | luogu-P1375 | https://hydro.ac/d/atto/p/luogu-P1375 | 来自题单 |
-| ★★★ 挑战 | luogu-P1044 | https://hydro.ac/d/atto/p/luogu-P1044 | 来自题单 |
+| ★ 核心 | luogu-P8557 | https://hydro.ac/d/atto/p/luogu-P8557 | 知识点：炼金术（Alchemy） |
+| ★ 核心 | luogu-P5505 | https://hydro.ac/d/atto/p/luogu-P5505 | 知识点：[JSOI2011] 分特产 |
+| ★ 核心 | luogu-P6298 | https://hydro.ac/d/atto/p/luogu-P6298 | 知识点：齿轮 |
+| ★ 核心 | luogu-P6162 | https://hydro.ac/d/atto/p/luogu-P6162 | 知识点：[Cnoi2020] 四角链 |
+| ★ 核心 | luogu-P6692 | https://hydro.ac/d/atto/p/luogu-P6692 | 知识点：出生点 |
+| ◆ 拓展 | luogu-P6076 | https://hydro.ac/d/atto/p/luogu-P6076 | 知识点：[JSOI2015] 染色问题 |
+| ◆ 拓展 | luogu-P5664 | https://hydro.ac/d/atto/p/luogu-P5664 | 知识点：[CSP-S2019] Emiya 家今天的饭 |
+| ◆ 拓展 | luogu-P3197 | https://hydro.ac/d/atto/p/luogu-P3197 | 知识点：[HNOI2008] 越狱 |
+| ◆ 拓展 | luogu-P1450 | https://hydro.ac/d/atto/p/luogu-P1450 | 知识点：[HAOI2008] 硬币购物 |
+| ◆ 拓展 | codeforces-P803F | https://hydro.ac/d/atto/p/codeforces-P803F | 知识点：Coprime Subsequences |
+| ★★★ 挑战 | luogu-P7118 | https://hydro.ac/d/atto/p/luogu-P7118 | 知识点：Galgame |
+| ★★★ 挑战 | luogu-P3200 | https://hydro.ac/d/atto/p/luogu-P3200 | 知识点：[HNOI2009] 有趣的数列 |
+| ★★★ 挑战 | luogu-P1976 | https://hydro.ac/d/atto/p/luogu-P1976 | 知识点：鸡蛋饼 |
+| ★★★ 挑战 | luogu-P1722 | https://hydro.ac/d/atto/p/luogu-P1722 | 知识点：矩阵 II |
+| ★★★ 挑战 | luogu-P1754 | https://hydro.ac/d/atto/p/luogu-P1754 | 知识点：球迷购票问题 |
+| ★★★ 挑战 | luogu-P1375 | https://hydro.ac/d/atto/p/luogu-P1375 | 知识点：小猫 |
+| ★★★ 挑战 | luogu-P1044 | https://hydro.ac/d/atto/p/luogu-P1044 | 知识点：[NOIP 2003 普及组] 栈 |
 

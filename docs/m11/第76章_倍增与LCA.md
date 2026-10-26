@@ -348,14 +348,14 @@ dist(u,v) = dep[u] + dep[v] - 2*dep[lca]
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | luogu-P3379 | https://hydro.ac/d/atto/p/luogu-P3379 | 来自题单 |
-| ★ 核心 | luogu-P10113 | https://hydro.ac/d/atto/p/luogu-P10113 | 来自题单 |
-| ★ 核心 | luogu-P8805 | https://hydro.ac/d/atto/p/luogu-P8805 | 来自题单 |
-| ◆ 拓展 | luogu-P8855 | https://hydro.ac/d/atto/p/luogu-P8855 | 来自题单 |
-| ◆ 拓展 | luogu-P4427 | https://hydro.ac/d/atto/p/luogu-P4427 | 来自题单 |
-| ◆ 拓展 | luogu-P3258 | https://hydro.ac/d/atto/p/luogu-P3258 | 来自题单 |
-| ★★★ 挑战 | luogu-P3128 | https://hydro.ac/d/atto/p/luogu-P3128 | 来自题单 |
-| ★★★ 挑战 | luogu-P3833 | https://hydro.ac/d/atto/p/luogu-P3833 | 来自题单 |
-| ★★★ 挑战 | luogu-P9235 | https://hydro.ac/d/atto/p/luogu-P9235 | 来自题单 |
-| ★★★ 挑战 | luogu-P2680 | https://hydro.ac/d/atto/p/luogu-P2680 | 来自题单 |
+| ★ 核心 | luogu-P3379 | https://hydro.ac/d/atto/p/luogu-P3379 | 知识点：【模板】最近公共祖先（LCA） |
+| ★ 核心 | luogu-P10113 | https://hydro.ac/d/atto/p/luogu-P10113 | 知识点：[GESP202312 八级] 大量的工作沟通 |
+| ★ 核心 | luogu-P8805 | https://hydro.ac/d/atto/p/luogu-P8805 | 知识点：[蓝桥杯 2022 国 B] 机房 |
+| ◆ 拓展 | luogu-P8855 | https://hydro.ac/d/atto/p/luogu-P8855 | 知识点：[POI 2002] 商务旅行 |
+| ◆ 拓展 | luogu-P4427 | https://hydro.ac/d/atto/p/luogu-P4427 | 知识点：[BJOI2018] 求和 |
+| ◆ 拓展 | luogu-P3258 | https://hydro.ac/d/atto/p/luogu-P3258 | 知识点：[JLOI2014] 松鼠的新家 |
+| ★★★ 挑战 | luogu-P3128 | https://hydro.ac/d/atto/p/luogu-P3128 | 知识点：[USACO15DEC] Max Flow P |
+| ★★★ 挑战 | luogu-P3833 | https://hydro.ac/d/atto/p/luogu-P3833 | 知识点：[SHOI2012] 魔法树 |
+| ★★★ 挑战 | luogu-P9235 | https://hydro.ac/d/atto/p/luogu-P9235 | 知识点：[蓝桥杯 2023 省 A] 网络稳定性 |
+| ★★★ 挑战 | luogu-P2680 | https://hydro.ac/d/atto/p/luogu-P2680 | 知识点：[NOIP 2015 提高组] 运输计划 |
 

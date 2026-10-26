@@ -336,24 +336,24 @@ DAG 上 DP：
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | luogu-P1807 | https://hydro.ac/d/atto/p/luogu-P1807 | 来自题单 |
-| ★ 核心 | luogu-P8893 | https://hydro.ac/d/atto/p/luogu-P8893 | 来自题单 |
-| ★ 核心 | luogu-P2712 | https://hydro.ac/d/atto/p/luogu-P2712 | 来自题单 |
-| ★ 核心 | luogu-P3074 | https://hydro.ac/d/atto/p/luogu-P3074 | 来自题单 |
-| ★ 核心 | luogu-P6145 | https://hydro.ac/d/atto/p/luogu-P6145 | 来自题单 |
-| ★ 核心 | luogu-P1137 | https://hydro.ac/d/atto/p/luogu-P1137 | 来自题单 |
-| ◆ 拓展 | luogu-P10166 | https://hydro.ac/d/atto/p/luogu-P10166 | 来自题单 |
-| ◆ 拓展 | luogu-P1038 | https://hydro.ac/d/atto/p/luogu-P1038 | 来自题单 |
-| ◆ 拓展 | luogu-P7113 | https://hydro.ac/d/atto/p/luogu-P7113 | 来自题单 |
-| ◆ 拓展 | luogu-P1983 | https://hydro.ac/d/atto/p/luogu-P1983 | 来自题单 |
-| ◆ 拓展 | luogu-P1685 | https://hydro.ac/d/atto/p/luogu-P1685 | 来自题单 |
-| ◆ 拓展 | luogu-P5603 | https://hydro.ac/d/atto/p/luogu-P5603 | 来自题单 |
-| ★★★ 挑战 | luogu-P3243 | https://hydro.ac/d/atto/p/luogu-P3243 | 来自题单 |
-| ★★★ 挑战 | luogu-P4376 | https://hydro.ac/d/atto/p/luogu-P4376 | 来自题单 |
-| ★★★ 挑战 | luogu-P3588 | https://hydro.ac/d/atto/p/luogu-P3588 | 来自题单 |
-| ★★★ 挑战 | luogu-P2597 | https://hydro.ac/d/atto/p/luogu-P2597 | 来自题单 |
-| ★★★ 挑战 | luogu-P2505 | https://hydro.ac/d/atto/p/luogu-P2505 | 来自题单 |
-| ★★★ 挑战 | luogu-P9534 | https://hydro.ac/d/atto/p/luogu-P9534 | 来自题单 |
-| ★★★ 挑战 | luogu-P1600 | https://hydro.ac/d/atto/p/luogu-P1600 | 来自题单 |
-| ★★★ 挑战 | atto#924 | https://hydro.ac/d/atto/p/924 | 来自题单 |
+| ★ 核心 | luogu-P1807 | https://hydro.ac/d/atto/p/luogu-P1807 | 知识点：最长路 |
+| ★ 核心 | luogu-P8893 | https://hydro.ac/d/atto/p/luogu-P8893 | 知识点：「UOI-R1」智能推荐 |
+| ★ 核心 | luogu-P2712 | https://hydro.ac/d/atto/p/luogu-P2712 | 知识点：摄像头 |
+| ★ 核心 | luogu-P3074 | https://hydro.ac/d/atto/p/luogu-P3074 | 知识点：[USACO13FEB] Milk Scheduling |
+| ★ 核心 | luogu-P6145 | https://hydro.ac/d/atto/p/luogu-P6145 | 知识点：[USACO20FEB] Timeline G |
+| ★ 核心 | luogu-P1137 | https://hydro.ac/d/atto/p/luogu-P1137 | 知识点：旅行计划 |
+| ◆ 拓展 | luogu-P10166 | https://hydro.ac/d/atto/p/luogu-P10166 | 知识点：[DTCPC 2024] 环 |
+| ◆ 拓展 | luogu-P1038 | https://hydro.ac/d/atto/p/luogu-P1038 | 知识点：[NOIP 2003 提高组] 神经网络 |
+| ◆ 拓展 | luogu-P7113 | https://hydro.ac/d/atto/p/luogu-P7113 | 知识点：[NOIP2020] 排水系统 |
+| ◆ 拓展 | luogu-P1983 | https://hydro.ac/d/atto/p/luogu-P1983 | 知识点：[NOIP 2013 普及组] 车站分级 |
+| ◆ 拓展 | luogu-P1685 | https://hydro.ac/d/atto/p/luogu-P1685 | 知识点：游览 |
+| ◆ 拓展 | luogu-P5603 | https://hydro.ac/d/atto/p/luogu-P5603 | 知识点：小 C 与桌游 |
+| ★★★ 挑战 | luogu-P3243 | https://hydro.ac/d/atto/p/luogu-P3243 | 知识点：[HNOI2015] 菜肴制作 |
+| ★★★ 挑战 | luogu-P4376 | https://hydro.ac/d/atto/p/luogu-P4376 | 知识点：[USACO18OPEN] Milking Order  |
+| ★★★ 挑战 | luogu-P3588 | https://hydro.ac/d/atto/p/luogu-P3588 | 知识点：[POI 2015] PUS |
+| ★★★ 挑战 | luogu-P2597 | https://hydro.ac/d/atto/p/luogu-P2597 | 知识点：[ZJOI2012] 灾难 |
+| ★★★ 挑战 | luogu-P2505 | https://hydro.ac/d/atto/p/luogu-P2505 | 知识点：[HAOI2012] 道路 |
+| ★★★ 挑战 | luogu-P9534 | https://hydro.ac/d/atto/p/luogu-P9534 | 知识点：[YsOI2023] 广度优先遍历 |
+| ★★★ 挑战 | luogu-P1600 | https://hydro.ac/d/atto/p/luogu-P1600 | 知识点：[NOIP 2016 提高组] 天天爱跑步 |
+| ★★★ 挑战 | atto#924 | https://hydro.ac/d/atto/p/924 | 知识点：924 [NOIP 2015 提高组] 运输计划 |
 

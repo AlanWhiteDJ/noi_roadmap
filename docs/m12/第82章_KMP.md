@@ -294,9 +294,9 @@ pi[i] = p[0..i] 的最长相等真前缀/真后缀长度
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | luogu-P4391 | https://hydro.ac/d/atto/p/luogu-P4391 | 来自题单 |
-| ◆ 拓展 | luogu-P8112 | https://hydro.ac/d/atto/p/luogu-P8112 | 来自题单 |
-| ★★★ 挑战 | luogu-P3435 | https://hydro.ac/d/atto/p/luogu-P3435 | 来自题单 |
-| ★★★ 挑战 | luogu-P3375 | https://hydro.ac/d/atto/p/luogu-P3375 | 来自题单 |
-| ★★★ 挑战 | luogu-P1470 | https://hydro.ac/d/atto/p/luogu-P1470 | 来自题单 |
+| ★ 核心 | luogu-P4391 | https://hydro.ac/d/atto/p/luogu-P4391 | 知识点：[BalticOI 2009] Radio Transm |
+| ◆ 拓展 | luogu-P8112 | https://hydro.ac/d/atto/p/luogu-P8112 | 知识点：[Cnoi2021] 符文破译 |
+| ★★★ 挑战 | luogu-P3435 | https://hydro.ac/d/atto/p/luogu-P3435 | 知识点：[POI 2006] OKR-Periods of Wo |
+| ★★★ 挑战 | luogu-P3375 | https://hydro.ac/d/atto/p/luogu-P3375 | 知识点：【模板】KMP |
+| ★★★ 挑战 | luogu-P1470 | https://hydro.ac/d/atto/p/luogu-P1470 | 知识点：[IOI 1996 / USACO2.3] 最长前缀 L |
 

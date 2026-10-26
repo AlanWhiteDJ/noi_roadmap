@@ -360,6 +360,6 @@ bitset<N>：N 为常量；count/any/none/set/reset/flip
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | luogu-P1059 | https://hydro.ac/d/atto/p/luogu-P1059 | 来自题单 |
-| ★ 核心 | luogu-P3613 | https://hydro.ac/d/atto/p/luogu-P3613 | 来自题单 |
+| ★ 核心 | luogu-P1059 | https://hydro.ac/d/atto/p/luogu-P1059 | 知识点：本章练习 |
+| ★ 核心 | luogu-P3613 | https://hydro.ac/d/atto/p/luogu-P3613 | 知识点：本章练习 |
 

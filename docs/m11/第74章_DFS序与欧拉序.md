@@ -358,6 +358,6 @@ LCA(u,v) = euler[first[u]..first[v]] 中 dep 最小的点
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | luogu-P3605 | https://hydro.ac/d/atto/p/luogu-P3605 | 来自题单 |
-| ★ 核心 | luogu-P2982 | https://hydro.ac/d/atto/p/luogu-P2982 | 来自题单 |
+| ★ 核心 | luogu-P3605 | https://hydro.ac/d/atto/p/luogu-P3605 | 知识点：[USACO17JAN] Promotion Count |
+| ★ 核心 | luogu-P2982 | https://hydro.ac/d/atto/p/luogu-P2982 | 知识点：本章练习 |
 

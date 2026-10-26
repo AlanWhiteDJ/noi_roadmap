@@ -303,38 +303,38 @@ SPFA：队列版 BF，平均快、最坏 O(nm)
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | luogu-P2935 | https://hydro.ac/d/atto/p/luogu-P2935 | 来自题单 |
-| ★ 核心 | luogu-P2984 | https://hydro.ac/d/atto/p/luogu-P2984 | 来自题单 |
-| ★ 核心 | luogu-P1339 | https://hydro.ac/d/atto/p/luogu-P1339 | 来自题单 |
-| ★ 核心 | luogu-P1821 | https://hydro.ac/d/atto/p/luogu-P1821 | 来自题单 |
-| ★ 核心 | luogu-P1529 | https://hydro.ac/d/atto/p/luogu-P1529 | 来自题单 |
-| ★ 核心 | luogu-P2888 | https://hydro.ac/d/atto/p/luogu-P2888 | 来自题单 |
-| ★ 核心 | luogu-P2951 | https://hydro.ac/d/atto/p/luogu-P2951 | 来自题单 |
-| ★ 核心 | luogu-P6770 | https://hydro.ac/d/atto/p/luogu-P6770 | 来自题单 |
-| ★ 核心 | luogu-P3003 | https://hydro.ac/d/atto/p/luogu-P3003 | 来自题单 |
-| ★ 核心 | luogu-P2419 | https://hydro.ac/d/atto/p/luogu-P2419 | 来自题单 |
-| ★ 核心 | luogu-P1673 | https://hydro.ac/d/atto/p/luogu-P1673 | 来自题单 |
-| ◆ 拓展 | luogu-P1629 | https://hydro.ac/d/atto/p/luogu-P1629 | 来自题单 |
-| ◆ 拓展 | luogu-P6175 | https://hydro.ac/d/atto/p/luogu-P6175 | 来自题单 |
-| ◆ 拓展 | luogu-P2176 | https://hydro.ac/d/atto/p/luogu-P2176 | 来自题单 |
-| ◆ 拓展 | luogu-P2047 | https://hydro.ac/d/atto/p/luogu-P2047 | 来自题单 |
-| ◆ 拓展 | luogu-P1078 | https://hydro.ac/d/atto/p/luogu-P1078 | 来自题单 |
-| ◆ 拓展 | luogu-P1119 | https://hydro.ac/d/atto/p/luogu-P1119 | 来自题单 |
-| ◆ 拓展 | luogu-P1522 | https://hydro.ac/d/atto/p/luogu-P1522 | 来自题单 |
-| ◆ 拓展 | luogu-P9751 | https://hydro.ac/d/atto/p/luogu-P9751 | 来自题单 |
-| ◆ 拓展 | luogu-P2914 | https://hydro.ac/d/atto/p/luogu-P2914 | 来自题单 |
-| ◆ 拓展 | luogu-P6464 | https://hydro.ac/d/atto/p/luogu-P6464 | 来自题单 |
-| ◆ 拓展 | luogu-P3371 | https://hydro.ac/d/atto/p/luogu-P3371 | 来自题单 |
-| ★★★ 挑战 | luogu-P1186 | https://hydro.ac/d/atto/p/luogu-P1186 | 来自题单 |
-| ★★★ 挑战 | luogu-P2865 | https://hydro.ac/d/atto/p/luogu-P2865 | 来自题单 |
-| ★★★ 挑战 | luogu-P2966 | https://hydro.ac/d/atto/p/luogu-P2966 | 来自题单 |
-| ★★★ 挑战 | luogu-P1491 | https://hydro.ac/d/atto/p/luogu-P1491 | 来自题单 |
-| ★★★ 挑战 | luogu-P3831 | https://hydro.ac/d/atto/p/luogu-P3831 | 来自题单 |
-| ★★★ 挑战 | luogu-P4822 | https://hydro.ac/d/atto/p/luogu-P4822 | 来自题单 |
-| ★★★ 挑战 | luogu-P4568 | https://hydro.ac/d/atto/p/luogu-P4568 | 来自题单 |
-| ★★★ 挑战 | luogu-P2939 | https://hydro.ac/d/atto/p/luogu-P2939 | 来自题单 |
-| ★★★ 挑战 | luogu-P2371 | https://hydro.ac/d/atto/p/luogu-P2371 | 来自题单 |
-| ★★★ 挑战 | luogu-P2446 | https://hydro.ac/d/atto/p/luogu-P2446 | 来自题单 |
-| ★★★ 挑战 | luogu-P4042 | https://hydro.ac/d/atto/p/luogu-P4042 | 来自题单 |
-| ★★★ 挑战 | luogu-P5100 | https://hydro.ac/d/atto/p/luogu-P5100 | 来自题单 |
+| ★ 核心 | luogu-P2935 | https://hydro.ac/d/atto/p/luogu-P2935 | 知识点：[USACO09JAN] Best Spot S |
+| ★ 核心 | luogu-P2984 | https://hydro.ac/d/atto/p/luogu-P2984 | 知识点：[USACO10FEB] Chocolate Givin |
+| ★ 核心 | luogu-P1339 | https://hydro.ac/d/atto/p/luogu-P1339 | 知识点：[USACO09OCT] Heat Wave G |
+| ★ 核心 | luogu-P1821 | https://hydro.ac/d/atto/p/luogu-P1821 | 知识点：[USACO07FEB] Cow Party S |
+| ★ 核心 | luogu-P1529 | https://hydro.ac/d/atto/p/luogu-P1529 | 知识点：[USACO2.4] 回家 Bessie Come Ho |
+| ★ 核心 | luogu-P2888 | https://hydro.ac/d/atto/p/luogu-P2888 | 知识点：[USACO07NOV] Cow Hurdles S |
+| ★ 核心 | luogu-P2951 | https://hydro.ac/d/atto/p/luogu-P2951 | 知识点：[USACO09OPEN] Hide and Seek  |
+| ★ 核心 | luogu-P6770 | https://hydro.ac/d/atto/p/luogu-P6770 | 知识点：[USACO05MAR] Checking an Ali |
+| ★ 核心 | luogu-P3003 | https://hydro.ac/d/atto/p/luogu-P3003 | 知识点：[USACO10DEC] Apple Delivery  |
+| ★ 核心 | luogu-P2419 | https://hydro.ac/d/atto/p/luogu-P2419 | 知识点：[USACO08JAN] Cow Contest S |
+| ★ 核心 | luogu-P1673 | https://hydro.ac/d/atto/p/luogu-P1673 | 知识点：[USACO05FEB] Part Acquisitio |
+| ◆ 拓展 | luogu-P1629 | https://hydro.ac/d/atto/p/luogu-P1629 | 知识点：邮递员送信 |
+| ◆ 拓展 | luogu-P6175 | https://hydro.ac/d/atto/p/luogu-P6175 | 知识点：无向图的最小环问题 |
+| ◆ 拓展 | luogu-P2176 | https://hydro.ac/d/atto/p/luogu-P2176 | 知识点：[USACO11DEC] RoadBlock S / [ |
+| ◆ 拓展 | luogu-P2047 | https://hydro.ac/d/atto/p/luogu-P2047 | 知识点：[NOI2007] 社交网络 |
+| ◆ 拓展 | luogu-P1078 | https://hydro.ac/d/atto/p/luogu-P1078 | 知识点：[NOIP 2012 普及组] 文化之旅 |
+| ◆ 拓展 | luogu-P1119 | https://hydro.ac/d/atto/p/luogu-P1119 | 知识点：灾后重建 |
+| ◆ 拓展 | luogu-P1522 | https://hydro.ac/d/atto/p/luogu-P1522 | 知识点：[USACO2.4] 牛的旅行 Cow Tours |
+| ◆ 拓展 | luogu-P9751 | https://hydro.ac/d/atto/p/luogu-P9751 | 知识点：[CSP-J 2023] 旅游巴士 |
+| ◆ 拓展 | luogu-P2914 | https://hydro.ac/d/atto/p/luogu-P2914 | 知识点：[USACO08OCT] Power Failure G |
+| ◆ 拓展 | luogu-P6464 | https://hydro.ac/d/atto/p/luogu-P6464 | 知识点：[传智杯 #2 决赛] 传送门 |
+| ◆ 拓展 | luogu-P3371 | https://hydro.ac/d/atto/p/luogu-P3371 | 知识点：【模板】单源最短路径（弱化版） |
+| ★★★ 挑战 | luogu-P1186 | https://hydro.ac/d/atto/p/luogu-P1186 | 知识点：玛丽卡 |
+| ★★★ 挑战 | luogu-P2865 | https://hydro.ac/d/atto/p/luogu-P2865 | 知识点：[USACO06NOV] Roadblocks G |
+| ★★★ 挑战 | luogu-P2966 | https://hydro.ac/d/atto/p/luogu-P2966 | 知识点：[USACO09DEC] Cow Toll Paths  |
+| ★★★ 挑战 | luogu-P1491 | https://hydro.ac/d/atto/p/luogu-P1491 | 知识点：集合位置 |
+| ★★★ 挑战 | luogu-P3831 | https://hydro.ac/d/atto/p/luogu-P3831 | 知识点：[SHOI2012] 回家的路 |
+| ★★★ 挑战 | luogu-P4822 | https://hydro.ac/d/atto/p/luogu-P4822 | 知识点：[BJWC2012] 冻结 |
+| ★★★ 挑战 | luogu-P4568 | https://hydro.ac/d/atto/p/luogu-P4568 | 知识点：[JLOI2011] 飞行路线 |
+| ★★★ 挑战 | luogu-P2939 | https://hydro.ac/d/atto/p/luogu-P2939 | 知识点：[USACO09FEB] Revamping Trail |
+| ★★★ 挑战 | luogu-P2371 | https://hydro.ac/d/atto/p/luogu-P2371 | 知识点：[国家集训队] 墨墨的等式 |
+| ★★★ 挑战 | luogu-P2446 | https://hydro.ac/d/atto/p/luogu-P2446 | 知识点：[SDOI2010] 大陆争霸 |
+| ★★★ 挑战 | luogu-P4042 | https://hydro.ac/d/atto/p/luogu-P4042 | 知识点：[AHOI2014/JSOI2014] 骑士游戏 |
+| ★★★ 挑战 | luogu-P5100 | https://hydro.ac/d/atto/p/luogu-P5100 | 知识点：[JOI 2017 Final] 足球 / Soccer |
 
