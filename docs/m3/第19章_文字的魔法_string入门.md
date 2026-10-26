@@ -335,7 +335,7 @@ stringstream：
 
 ## 📝 配套练习
 
-> 📋 **本模块题单**：[M3 循环与数据容器（本书）](https://hydro.ac/d/atto/training/6addd3405f809f20a865435c)
+> 📋 **本模块题单**：[M3 循环与数据容器（题单）](https://hydro.ac/d/atto/training/6addd3405f809f20a865435c)
 
 > 共13题。string从读入→遍历→字符处理→查找映射逐步深入。★核心（课堂必做） ◆拓展（课后练习）
 

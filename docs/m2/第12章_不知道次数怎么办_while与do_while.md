@@ -424,7 +424,7 @@ while (i <= 5) {
 
 ## 📝 配套练习
 
-> 📋 **本模块题单**：[M2 选择与重复（本书）](https://hydro.ac/d/atto/training/6addd3343fd58de1c09eb936)
+> 📋 **本模块题单**：[M2 选择与重复（题单）](https://hydro.ac/d/atto/training/6addd3343fd58de1c09eb936)
 
 > 共8题。while的核心差异是"不知道次数"——J0046(截半)/J0066(不定量输入)/J0067(猜次数)三种场景各一题。★核心（课堂必做） ◆拓展（课后练习）
 

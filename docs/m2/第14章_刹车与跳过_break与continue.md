@@ -282,7 +282,7 @@ for (int i = 1; i <= 100; i++) {
 
 ## 📝 配套练习
 
-> 📋 **本模块题单**：[M2 选择与重复（本书）](https://hydro.ac/d/atto/training/6addd3343fd58de1c09eb936)
+> 📋 **本模块题单**：[M2 选择与重复（题单）](https://hydro.ac/d/atto/training/6addd3343fd58de1c09eb936)
 
 > 共6题。break练"找到就停"，continue练"跳过不处理"。J0095(标记变量跳出多层)是本章难点。★核心（课堂必做） ◆拓展（课后练习）
 

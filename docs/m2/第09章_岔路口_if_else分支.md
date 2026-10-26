@@ -446,7 +446,7 @@ if (age = 18) {
 
 ## 📝 配套练习
 
-> 📋 **本模块题单**：[M2 选择与重复（本书）](https://hydro.ac/d/atto/training/6addd3343fd58de1c09eb936)
+> 📋 **本模块题单**：[M2 选择与重复（题单）](https://hydro.ac/d/atto/training/6addd3343fd58de1c09eb936)
 
 > 共9题。if-else从二元→多元→嵌套→分段函数逐步推进。★核心（课堂必做） ◆拓展（课后练习）
 

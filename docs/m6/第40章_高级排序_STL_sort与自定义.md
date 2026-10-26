@@ -364,7 +364,7 @@ cmp 写法：
 
 ## 📝 配套练习
 
-> 📋 **本模块题单**：[M6 排序与复杂度（本书）](https://hydro.ac/d/atto/training/6addd3665f809f20a865455e)
+> 📋 **本模块题单**：[M6 排序与复杂度（题单）](https://hydro.ac/d/atto/training/6addd3665f809f20a865455e)
 
 > 共4题。从简单cmp→多关键字→复杂规则(拼接比较)→stable_sort，cmp设计能力递进。★核心（课堂必做） ◆拓展（课后练习）
 

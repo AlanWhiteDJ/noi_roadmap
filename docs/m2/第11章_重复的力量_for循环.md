@@ -419,7 +419,7 @@ for (int i = 1; i <= 5; i++);
 
 ## 📝 配套练习
 
-> 📋 **本模块题单**：[M2 选择与重复（本书）](https://hydro.ac/d/atto/training/6addd3343fd58de1c09eb936)
+> 📋 **本模块题单**：[M2 选择与重复（题单）](https://hydro.ac/d/atto/training/6addd3343fd58de1c09eb936)
 
 > 共9题。for是循环的主力——累加/计数/最值/嵌套四种模式每题覆盖一到两种。★核心（课堂必做） ◆拓展（课后练习）
 
