@@ -400,7 +400,7 @@ struct 结构体名 {
 
 ## 📝 配套练习
 
-> 📋 **本模块题单**：[M4 函数与进阶类型（上册）](https://hydro.ac/d/atto/training/6addd34d3fd58de1c09eba27)
+> 📋 **本模块题单**：[M4 函数与进阶类型（本书）](https://hydro.ac/d/atto/training/6addd34d3fd58de1c09eba27)
 
 > 共6题。struct从定义→访问→比较→排序，为M6的sort+cmp打基础。★核心（课堂必做） ◆拓展（课后练习）
 

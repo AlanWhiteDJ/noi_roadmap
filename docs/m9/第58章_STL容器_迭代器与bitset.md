@@ -2,7 +2,7 @@
 
 ---
 
-> 🏗️ **前情回顾**：上册你用过 `vector`、`sort`、`stack`、`queue`，它们都属于 C++ 标准模板库（STL）。这一章把 STL 的常用容器系统过一遍——它们是你写提高级代码的"工具箱"。
+> 🏗️ **前情回顾**：本书你用过 `vector`、`sort`、`stack`、`queue`，它们都属于 C++ 标准模板库（STL）。这一章把 STL 的常用容器系统过一遍——它们是你写提高级代码的"工具箱"。
 
 ## 🎯 本章目标
 
@@ -117,12 +117,12 @@ for (int x : s) cout << x << ' ';
 
 ## 📝 配套练习
 
-> 📋 **本模块题单**：[M9 数据结构与 STL（下册）](https://hydro.ac/d/atto/training/6ade003484bee48834b2f46e)
+> 📋 **本模块题单**：[M9 数据结构与 STL（后续）](https://hydro.ac/d/atto/training/6ade003484bee48834b2f46e)
 
 > 共2题。核心/拓展/挑战分档。
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | luogu-P1059 | https://hydro.ac/d/atto/p/luogu-P1059 | 来自下册题单 |
-| ★ 核心 | luogu-P3613 | https://hydro.ac/d/atto/p/luogu-P3613 | 来自下册题单 |
+| ★ 核心 | luogu-P1059 | https://hydro.ac/d/atto/p/luogu-P1059 | 来自题单 |
+| ★ 核心 | luogu-P3613 | https://hydro.ac/d/atto/p/luogu-P3613 | 来自题单 |
 

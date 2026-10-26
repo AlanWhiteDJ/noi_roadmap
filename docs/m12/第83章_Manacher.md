@@ -53,5 +53,5 @@ for (int i = 0; i < n; i++) {
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | luogu-P3805 | https://hydro.ac/d/atto/p/luogu-P3805 | 来自下册题单 |
+| ★ 核心 | luogu-P3805 | https://hydro.ac/d/atto/p/luogu-P3805 | 来自题单 |
 

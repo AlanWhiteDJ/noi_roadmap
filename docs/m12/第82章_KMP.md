@@ -1,7 +1,7 @@
 # 第 82 章  KMP
 
 ---
-> 🏗️ **前情回顾**：上册第 19–21 章你用 `string` 做过查找，暴力匹配在主串每个位置都从头比，最坏 O(nm)。KMP 让指针永不回退。
+> 🏗️ **前情回顾**：第 19–21 章你用 `string` 做过查找，暴力匹配在主串每个位置都从头比，最坏 O(nm)。KMP 让指针永不回退。
 💡 **动机**：暴力匹配在 `aaaa…ab` 上会退化到 O(nm)，KMP 用一块数组存下历史信息，是“用空间换时间”的典型。
 ## 🎯 本章目标
 - 理解前缀函数（next/pi 数组）的含义与递推
@@ -53,9 +53,9 @@ for (int i = 0, j = 0; i < m; i++) {
 
 | 级别 | 题号 | 链接 | 覆盖知识点 |
 |------|------|------|-----------|
-| ★ 核心 | luogu-P4391 | https://hydro.ac/d/atto/p/luogu-P4391 | 来自下册题单 |
-| ◆ 拓展 | luogu-P8112 | https://hydro.ac/d/atto/p/luogu-P8112 | 来自下册题单 |
-| ★★★ 挑战 | luogu-P3435 | https://hydro.ac/d/atto/p/luogu-P3435 | 来自下册题单 |
-| ★★★ 挑战 | luogu-P3375 | https://hydro.ac/d/atto/p/luogu-P3375 | 来自下册题单 |
-| ★★★ 挑战 | luogu-P1470 | https://hydro.ac/d/atto/p/luogu-P1470 | 来自下册题单 |
+| ★ 核心 | luogu-P4391 | https://hydro.ac/d/atto/p/luogu-P4391 | 来自题单 |
+| ◆ 拓展 | luogu-P8112 | https://hydro.ac/d/atto/p/luogu-P8112 | 来自题单 |
+| ★★★ 挑战 | luogu-P3435 | https://hydro.ac/d/atto/p/luogu-P3435 | 来自题单 |
+| ★★★ 挑战 | luogu-P3375 | https://hydro.ac/d/atto/p/luogu-P3375 | 来自题单 |
+| ★★★ 挑战 | luogu-P1470 | https://hydro.ac/d/atto/p/luogu-P1470 | 来自题单 |
 

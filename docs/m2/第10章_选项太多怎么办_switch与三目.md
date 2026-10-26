@@ -389,7 +389,7 @@ cout << (n % 2 == 0 ? "YES" : "NO") << endl;
 
 ## 📝 配套练习
 
-> 📋 **本模块题单**：[M2 选择与重复（上册）](https://hydro.ac/d/atto/training/6addd3343fd58de1c09eb936)
+> 📋 **本模块题单**：[M2 选择与重复（本书）](https://hydro.ac/d/atto/training/6addd3343fd58de1c09eb936)
 
 > 共8题。switch语法简单——重点是"什么时候用switch vs if"。J0036(买铅笔)和J0039(电费)教分段决策的应用价值。★核心（课堂必做） ◆拓展（课后练习）
 
